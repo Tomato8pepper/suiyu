@@ -1,0 +1,249 @@
+.xhcar{
+  position: relative;
+}
+.head{
+  width: 320px;
+  height: 40px;
+  margin-top: 18px;
+  margin-left: 23px;
+  margin-right: 23px;
+  font-size: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.picture{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* background: #aaa; */
+  position: absolute;
+  top: 3px;
+  left: 5px;
+}
+.picture-img{
+  width: 100%;
+  height: 100%;
+}
+.text{
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  left: 60px;
+  top: 11px;
+  font-size: 15px;
+
+}
+.text-red{
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  top: 11px;
+  left: 150px;
+  font-size: 15px;
+  color: red;
+}
+.arr-pic{
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 11px;
+  right: 30px;
+}
+.arr-img{
+  width: 100%;
+  height: 100%;
+}
+.side{
+  width: 53px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  top: 108px;
+  /* background: red; */
+}
+.bike-pic{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+
+}
+.bike-img{
+  width: 100%;
+  height: 100%;
+}
+.light{
+  width: 40px;
+  height: 110px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: white;
+  border-radius: 10px;
+}
+.leidian-pic{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 9px;
+  right: 5px;
+
+}
+.leidian-img{
+  width: 100%;
+  height: 100%;
+}
+.talk{
+  width: 140px;
+  height: 25px;
+  background: #fff;
+  position: absolute;
+  top: 40px;
+  right: 70px;
+  border-radius: 50px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 25px;
+}
+.search-pic{
+  width: 15px;
+  height: 18px;
+  /* border-radius: 50%; */
+  position: absolute;
+  top: 4px;
+  left: 6px;
+
+}
+.search-img{
+  width: 100%;
+  height: 100%;
+}
+.pointer{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  /* top: 9px; */
+  /* right: 5px; */
+  left: -29px;
+  bottom: -15px;
+}
+.pointer-img{
+  width: 100%;
+  height: 100%;
+}
+.pole1{
+  width: 30px;
+  position: absolute;
+  left: 3px;
+  top: 55px;
+  border: 0.5px solid #aaa;
+}
+.p-pic{
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  right: 7px;
+
+}
+.p-img{
+  width: 100%;
+  height: 100%;
+}
+.local-pic{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 68px;
+  right: 10px;
+}
+.local-img{
+  width: 100%;
+  height: 100%;
+}
+.tool-pic{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+.tool-img{
+  width: 100%;
+  height: 100%;
+}
+.safe{
+  width: 320px;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  /* bottom: 100px; */
+  bottom: 80px;
+  border-radius: 10px;
+  margin-left: 26px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 40px;
+}
+.remind-pic{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 45px;
+  top: 4px;
+}
+.remind-img{
+  width: 100%;
+  height: 100%;
+}
+.arrow-pic{
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 280px;
+  top: 1px;
+}
+.arrow-img{
+  width: 100%;
+  height: 100%;
+}
+.bottom{
+  width: 320px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  /* top: 25px; */
+  bottom: 20px;
+  color:white;
+  border-radius: 10px;
+  margin-left: 26px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+.saoma-pic{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 26px;
+  left: 85px;
+}
+.saoma-img{
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+}
+.pole{
+  position: absolute;
+  bottom: 7px;
+  width: 120px;
+  border: 3px solid black;
+  left: 120px;
+  border-radius: 5px;
+}

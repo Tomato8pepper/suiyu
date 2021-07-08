@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>制作我的第一个网页</title>
+    <style type="text/css">
+        h2 {
+            color: red;
+            border: 1px solid blue;
+            width: 140px;
+            height: 40px;
+        }
+
+        h3 {
+            font-size: 12px;
+            color: #930;
+            text-align: center;
+        }
+
+        span {
+            color: red;
+            font-size: 25px;
+        }
+    </style>
+    <script>
+    </script>
+</head>
+
+<body>
+    <header>html基础学习</header>
+    <h1>一级&nbsp;标题</h1>
+    <h2>二级&nbsp;标题</h2>
+    <h3>三级标题</h3>
+    <h4>四级标题</h4>
+    <h5>五级标题</h5>
+    <h6>六级标题</h6>
+    <br /><br /><br /><br />
+
+    <h1>了不起的比尔盖茨</h1>
+
+    <hr />
+    <p>1922年的春天，一个想要成名名叫尼克•卡拉威（
+        <a href="http://www.m1905.com/mdb/star/3316/" title="click here " target="_blank">托比•马奎尔Tobey Maguire </a>
+        饰）的作家，
+        离开了美国中西部，来到了纽约。那是一个道德感渐失，爵士乐流行，走私为王，股票飞涨
+        的时代。为了追寻他的<span>美国梦</span>，他搬入纽约附近一海湾居住。
+    </p>
+    <hr />
+    <p>菲茨杰拉德，二十世纪美国文学巨擘之一，兼具作家和编剧双重身份。他以诗人的敏感和戏剧
+        家的想象为"爵士乐时代"吟唱华丽挽歌，其诗人和梦想家的气质亦为那个奢靡年代的不二注解。
+    </p>
+    <img src="http://img.mukewang.com/52da54ed0001ecfa04120172.jpg" alter="图片" title="电影介绍">
+    <hr />
+
+    <ul>
+        <li>toamto</li>            //快捷键 ul>li*3{welcome}
+        <li>pepper</li>             //快捷键div>p.name>span{hello world}
+        <li>paper</li>                 //点击标签可以在右边进行调试
+    </ul>
+
+    <ol>
+        <li>red</li>
+        <li>blue</li>
+        <li>green</li>
+    </ol>
+    <br /><br /><br />
+
+    <table border="2">
+        <caption>前端三剑客</caption>
+        <thead>
+            <tr>
+                <th>知识点</th>
+                <th>重要程度</th>
+                <th>难度</th>
+                <th>学习周期</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>html</td>
+                <td>5星</td>
+                <td>3星</td>
+                <td>7天</td>
+            </tr>
+            <tr>
+                <td>css</td>
+                <td>5星</td>
+                <td>4星</td>
+                <td>10天</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>js</td>
+                <td>5星</td>
+                <td>4星</td>
+                <td>20天</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    <br />
+    <form>
+        <label for="first">姓名</label>
+        <!--for的内容可以与表单中id相对应-->
+        <input type="text" name="" id="first" value="123456789"><br />
+        <!--name：为该框的名字 value：为框的默认值-->
+        <label for="">密码</label>
+        <input type="password" name="" id="second" value="" placeholder="请输入">
+        <!--placeholder为占位符--><br>
+        <input type="submit" value="确定" name="">&nbsp;
+        <input type="reset" value="取消" name=""><br>
+
+
+        <input type="number">
+        <input type="url">
+        <input type="email">
+        <textarea>文本域</textarea>
+        <br><br><br>
+
+
+        <label>性别：</label>
+        <label>男<input type="radio" name="r" value="1" checked="checked"></label>
+        <label>女<input type="radio" name="r" value="2"></label><br><br><br>
+
+
+        <label>爱好</label><br>
+        <label>篮球<input type="checkbox" name="c1" value="1"></label><br>
+        <!--name表单的值 value向服务器提交的值-->
+        <label>兵乓球<input type="checkbox" name="c2" value="1"></label><br>
+        <label>排球<input type="checkbox" name="c3" value="1"></label><br>
+        <label>羽毛球<input type="checkbox" name="c4" value="1"></label><br><br><br>
+
+        <label>喜欢吃的东西</label>
+        <select>
+            <option value="apper">苹果</option>
+            <option value="egg" selected="selected">鸡蛋</option>
+            <option value="pear">梨</option>
+        </select><br><br>
+
+        <input type="submit" value="提交" >
+        <input type="reset"  value="取消" >
+    </form>
+
+    <br><br><br>
+    <section>专栏标签</section>
+    <aside>我是侧边栏</aside>
+
+
+
+    <footer>慕课网</footer>
+</body>
+
+</html>

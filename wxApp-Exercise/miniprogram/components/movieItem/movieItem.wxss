@@ -1,0 +1,33 @@
+.item{
+    display: inline-flex;
+
+}
+.item .info{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-size: 32rpx;
+    font-weight: bold;
+    max-width: 200rpx;
+    /* 文本不换行，超出打点 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.img{
+    width: 201rpx;
+    height: 301rpx;
+    margin-bottom: 20rpx;
+    border-radius: 10rpx;
+}
+.score{
+    display: inline-block;
+}
+.score-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25rpx;
+
+}

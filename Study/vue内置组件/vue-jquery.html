@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.9/vue.common.dev.js"></script>
+</head>
+<body>
+    <div id="jquery">{{message}}</div>
+    <div id="extend">{{message}}</div>
+    <button onclick='Redestroy()'>销毁方法</button>
+    <div id="event">{{num}}
+        <p><button @click="add">加一</button></p>
+        <p><button onclick="reduce()">减一</button></p>
+        <p><button onclick="reduceOne()">一次减一</button></p>
+        <p><button onclick="off()">阻止减一方法</button></p>
+    </div>
+    <!-- vue-jquery -->
+    <script>
+        const app = new Vue({
+            el: '#jquery',
+            data: {
+                message: 'vue',
+            },
+            methods: {
+                add () {
+                    console.log('构造器里添加了add方法！');
+                }
+            },
+            mounted: function () {
+                $('#jquery').html('jquery')
+            }
+        })
+        app.add()
+    </script>
+    <!-- 实例方法extend -->
+    <script>
+        const jspang = Vue.extend({
+            template: `<div>{{message}}</div>`,
+            data: function () {
+                return {
+                    message: '我是extend出来的！'
+                }
+            }
+        })
+        const vm = new jspang().$mount('#extend')
+        function Redestroy() {
+            vm.$destroy()
+            console.log('销毁完成！');
+        }
+    </script>
+    <script>
+        const app1 = new Vue({
+            el: '#event',
+            data: function () {
+                return {
+                    num: 0
+                }
+            },
+            methods: {
+                add () {
+                    this.num++;
+                }
+            }
+        })
+        app1.$on('reduce', function () {
+            console.log('执行了reduce方法');
+            this.num--
+        })
+        function reduce () {
+            app1.$emit('reduce')
+        }
+        app1.$once('reduceOne', function() {
+            console.log('执行一次的方法');
+            this.num--
+        })
+        function reduceOne() {
+            app1.$emit('reduceOne')
+        }
+        function off() {
+            app1.$off('reduce')
+        }
+        // solt子父组件传值
+    </script>
+</body>
+</html>

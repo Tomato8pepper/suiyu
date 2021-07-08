@@ -1,0 +1,13 @@
+<view class="star" >
+    <!-- <block wx:for="{{i}}">
+        <image class="star-img" src="/assets/img/rating_star_small_on.png"/>
+    </block>
+    <block wx:for="{{j}}">
+        <image class="star-img" src="/assets/img/rating_star_small_half.png" />
+    </block>
+    <block wx:for="{{k}}">
+        <image class="star-img" src="/assets/img/rating_star_small_off.png" />
+    </block> -->
+    <image class="" src="{{item}}" wx:for="{{stars}}" wx:key="index" style="width:{{iconSize}}; height:{{iconSize}};"/>
+      
+</view>

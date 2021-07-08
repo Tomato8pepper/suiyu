@@ -1,0 +1,45 @@
+<nav-bar></nav-bar>
+<view class='container'>
+  <view class='title-bar'>
+    <text class="t1" bindtap="transfrom1">订阅专栏</text>
+    <text class="t1" bindtap="transfrom2">视频课程</text>
+    <text class="t1" bindtap="transfrom3">精品微课</text>
+    <view class="borderline" style="left:{{isLeft}}"></view>
+  </view>
+  <view class="page1" style="left:{{left1}}">
+    <block wx:for="{{element}}" wx:key="index">
+      <view class="content-bar" >
+        <image bindtap="switchTo" class="img" src="{{item.images}}"/>
+        <image class="img-c" src="../image/mine1.png"></image>
+        <text class="t2 t4">{{item.number}}人与你共同学习</text>
+        <text class="t2 t5">|</text>
+        <text class="t2 t6">限时 ￥{{item.price}}</text>
+        <text class="t2 t7">/20</text>
+      </view>
+    </block>
+  </view>
+  <view class="page2" style="left:{{left2}}">
+    <block wx:for="{{element2}}" wx:key="index">
+      <view class="content-bar">
+        <image class="img" src="{{item.images}}" />
+        <image class="img-c" src="../image/mine1.png"></image>
+        <text class="t2 t4">{{item.number}}人与你共同学习</text>
+        <text class="t2 t5">|</text>
+        <text class="t2 t6">限时 ￥{{item.price}}</text>
+        <text class="t2 t7">/20</text>
+      </view>
+    </block>
+  </view>
+  <view class="page3" style="left:{{left3}}">
+    <block wx:for="{{element3}}" wx:key="index">
+      <view class="content-bar">
+        <image class="img" src="{{item.images}}" />
+        <image class="img-c" src="../image/mine1.png"></image>
+        <text class="t2 t4">{{item.number}}人与你共同学习</text>
+        <text class="t2 t5">|</text>
+        <text class="t2 t6">限时 ￥{{item.price}}</text>
+        <text class="t2 t7">/20</text>
+      </view>
+    </block>
+  </view>
+</view>

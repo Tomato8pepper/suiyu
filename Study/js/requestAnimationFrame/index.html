@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            font-family: sans-serif;
+            background: #13091B;
+            /* html可以继承到设备的高度，body继承到了html */
+            height: 100%;
+        }
+        body{
+            /* no-repeat不平铺  如果图片大小没有容器那么大会复制很多张，用了nr之后就只有一张 */
+            background: url("https://p1.music.126.net/gAmIGjlWnYXE_0O8LFp5-w==/109951164382001054.jpg") no-repeat;
+            /* 容器是主角 */
+            background-size: cover;
+            /* position: absolute; */
+        }
+        audio{
+            /* 让控制器消失 */
+            /* display: none; */
+            /* opacity: 0; */
+            visibility: hidden;
+        }
+        a{
+            /* 定位 */
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            /* 设置标签大小背景 */
+            width: 150px;
+            height: 45px;
+            background-color: aqua;  
+            border-radius: 4px;
+            /* 设置标签中字体  */
+            font-weight: normal;
+            font-size: 18px;  
+            line-height: 45px;
+                /* 文字居中 */
+            text-align: center;
+                /* 行间距 */
+            text-decoration: none;
+                /* 字母间距 */
+            letter-spacing: 2px;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <canvas id="canvas"></canvas>
+        <!-- 音乐标签   controls显示控件 -->
+        <audio controls id="audio" src="http://m8.music.126.net/21180815163607/04976f67866d4b4d11575ab418904467/ymusic/515a/5508/520b/f0cf47930abbbb0562c9ea61707c4c0b.mp3?infoId=92001" crossorigin="anonymous"></audio>        
+        <a href="javascript:" id="play-btn">play</a>
+    </div>
+    <script>
+        var btn = document.getElementById('play-btn')
+        var audio = document.getElementById('audio')
+        // 点击按钮就触发事件
+        // btn.addEventListener('click',function(){})
+        btn.onclick = function() {
+            audio.play()
+            btn.style.opacity = 0;
+            onloadAudio()
+        }
+        //出现音浪
+        function onloadAudio() {
+            // 拿到了audio的参数
+            var context = new(window.AudioContext || window.webkitAudioContext)
+            // console.log(context)
+            // 参数调用自带的一个方法创建一个分析器，可以获得当前音频的时间和频率的数据，可视化数据
+            var analyser = context.createAnalyser()
+            // console.log(analyser)
+            analyser.ffiSize = 512
+            // 输入 流式播放 提取audio标签播放的歌曲的数据源
+            var source = context.createMediaElementSource(audio)
+            source.connect(analyser)
+            analyser.connect(context.destination)
+
+            var bufferLength = analyser.frequencyBinCount
+            // console.log(bufferLength)
+            // 创建了一个长度为8的一个数组，默认值为null
+            var dataArray = new Uint8Array(bufferLength)
+            // console.log(dataArray)
+
+
+            var canvas = document.getElementById('canvas')
+            // 让画布的大小为窗口的不包括border的宽度, 高度
+            canvas.width = window.innerWidth
+            canvas.height = window.innerHeight
+
+            var ctx = canvas.getContext('2d')
+            var WIDTH = canvas.width
+            var HEIGHT = canvas.height
+
+
+            var barWidth = WIDTH / bufferLength * 1.5
+            var barHeight
+
+            // console.log(barWidth) 
+
+
+            function renderFrame() {
+                requestAnimationFrame(renderFrame)
+
+                analyser.getByteFrequencyData(dataArray)
+                ctx.clearRect(0, 0, WIDTH, HEIGHT)
+
+                for (var i = 0, x = 0; i < bufferLength; i++) {
+                    barHeight = dataArray[i]
+                    var r = barHeight + 25 * (i / bufferLength)
+                    var g = 250 * (i / bufferLength)
+                    var b = 50 
+
+                    ctx.fillStyle = "rgb("+ r +", " + g +", "+ b +")"
+                    ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight)
+                    x += barWidth + 2
+                }
+            }
+            renderFrame()
+        }
+    </script>
+</body>
+</html>

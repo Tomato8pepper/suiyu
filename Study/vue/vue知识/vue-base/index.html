@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.12/vue.common.dev.js"></script>
+    <title>Document</title>
+    <style>
+        .isRed{
+            color:red
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div v-if="isSure">how are you!</div>
+        <div v-else>I'm fine, thank you!</div>
+        <!-- display:none -->
+        <div v-show="isExit">Are you ok!</div>
+        <ul>
+            <!-- <div class="item" v-for="item in list" > -->
+            <div class="item" v-for="(item, index) in list"  :key="index" >
+                <li>{{index}}-{{item}}</li>
+            </div>
+        </ul>
+        <div class="items" v-for="item in people" >
+            <li>{{item.name}} - {{item.age}}</li>
+        </div>
+        <div class="msg">
+            <span>{{message}}</span><br/>
+            <span v-text="message"></span><br/>
+            <span v-html="newMessage"></span>
+        </div>
+        <div class="count" >
+            <p>{{count}}</p>
+            <button v-on:click="add">+</button>
+            <button @click="reduce">-</button>
+        </div>
+        <div class="model">
+            <p>{{message}}</p>
+            <p>
+                v-modle:
+                <input type="text" v-model="message"/>
+            </p>
+        </div>
+        <div class="pic">
+            <img v-bind:src="imgSrc" alt="">
+            <img :src="imgSrc"  alt="">
+        </div>
+        <div v-bind:class="isRed?'isRed':''"  @click="changeColor">蜗牛你是真的皮！</div>
+
+        <!-- v-bind:class="[className1, className2]" -->
+        <div v-pre>{{message}}</div>
+
+        <div v-cloak>{{message}}</div>
+
+        <div v-once>{{message}}</div>
+        <input type="text" v-model="message">
+
+    </div>
+    <script>
+        var vue = new Vue({
+            // 指明dom结构
+            el: '#app',
+            data: {
+                isRed: true,
+                className1: 'woniu',
+                className2: 'nihenpi',
+                imgSrc: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1598262426701&di=3e63c874a5a84cc11c0bfb1c71aece3e&imgtype=0&src=http%3A%2F%2Ffile01.16sucai.com%2Fd%2Ffile%2F2013%2F0528%2F20130528100729502.jpg',
+                message: 'data-resouce',
+                newMessage: '<h2>data-resouce</h2>',
+                isSure: false,
+                isExit: true,
+                list: ['a', 'b', 'c', 'd'],
+                people: [
+                    { name: '小明', age: 18 },
+                    { name: '小颖', age: 19 },
+                    { name: '小刚', age: 20 },
+                ],
+                count: 0
+            },
+            // 所有自定义方法
+            methods: {
+                add() {
+                    this.count++
+                },
+                reduce() {
+                    this.count--
+                },
+                changeColor() {
+                    this.isRed = !this.isRed
+                }
+            },
+
+            // 初始化之前， 加载数据
+            beforeCreate() {
+                console.log('初始化之前执行')
+            },
+            // 初始化完成之后，
+            created() {
+                console.log('初始化之后执行')
+            },
+            beforeMount() {
+                console.log('挂载之前')
+            },
+            mounted() {
+                console.log('挂载之后, 能拿到元素的dom结构')
+            },
+            beforeUpdate() {
+                console.log('数据源改变之前')
+            },
+            updated() {
+                console.log('数据源更新之后')
+            },
+            beforeDestroy() {
+                console.log('页面销毁之后')
+            },
+            destroyed() {
+                console.log('页面销毁之后')
+            }
+        })
+    </script>
+</body>
+
+</html>

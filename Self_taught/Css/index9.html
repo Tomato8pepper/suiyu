@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>下划线、首行缩进、行间距、字符间的空白、对齐方式、长度值</title>
+    <!-- 1、像素
+            像素为什么是相对单位呢？因为像素指的是显示器上的小点（CSS规范中假设“90像素=1英寸”）。
+            实际情况是浏览器会使用显示器的实际像素值有关，在目前大多数的设计者都倾向于使用像素（px）作为单位。
+         2、em
+            就是本元素给定字体的 font-size 值，如果元素的 font-size 为 14px ，那么 1em = 14px；
+            如果 font-size 为 18px，那么 1em = 18px。但当给 font-size 设置单位为 em 时，此时计
+            算的标准以 p 的父元素的 font-size 为基础。 
+         3、百分比
+            p{font-size:12px;line-height:130%}
+            设置行高（行间距）为字体的130%（12 * 1.3 = 15.6px）。
+    -->
+    <style type="text/css">
+        p{
+            text-decoration: line-through;
+            text-indent:2em;
+            line-height:2em;
+            /* 字母及文字之间的空白 */
+            letter-spacing: 2em;
+            /* 英文单词之间的空白 */
+            word-spacing: 2em;
+        }
+        div{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p>菲茨杰拉德，二十世纪美国文学巨擘之一，兼具作家和编剧双重身份。他以诗人的敏感和戏剧家的想象为"爵士乐时代"吟
+        唱华丽挽歌，其诗人和梦想家的气质亦为那个奢靡年代的不二注解。
+        this is a beautiful girl.
+    </p>
+    <div>
+        <img src="http://img.mukewang.com/52b4113500018cf102000200.jpg">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/your">your</a>
+    <a href="/mine">mine</a>
+    <div id="routeView"></div>
+    <script>
+        window.addEventListener(DOMContentLoaded, onload)
+        window.addEventListener(popchange, onPopchange)
+        let routeView = null
+        function onload() {
+            let routeView = document.querySelector('#routeView')
+            onPopchange()
+            let LinkList = document.querySelectorAll('a[href]')
+            LinkList.forEach(element => {
+                element.addEventListener('click', e => {
+                    e.preventDefault()
+                    history.pushState(null, '', element.getAttribute('href'))
+                    onPopchange();
+                })
+            })
+        }
+        function onPopchange() {
+            switch(location.pathname) {
+                case '/your':
+                    routeView.innerHTML = 'yourself!'
+                    return
+                case '/mine':
+                    routeView.innerHTML = 'mineself'
+                    return
+                default:
+                    return
+            }
+        }
+    </script>
+</body>
+</html>

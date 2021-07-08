@@ -1,0 +1,42 @@
+.container{
+    background-color: #dbdbdb;
+}
+.title{
+    
+}
+.title-word{
+    width: 180rpx;
+    height: 80rpx;
+    text-align: center;
+    line-height: 80rpx;
+    font-size: 34rpx;
+    background-color: #ff5700;
+    margin-left: 5rpx;
+    border-radius: 30rpx 0 0 30rpx;
+    color: white;
+    display: inline-block;
+}
+image{
+    width: 50rpx;
+    height: 50rpx;
+}
+.title-scroll{
+    display: inline-block;
+    background-color: white;
+    padding: 20rpx;
+    
+}
+.arrow{
+    background-color: #fff;
+    padding: 20rpx;
+    display: inline-block;
+    border-radius: 0 30rpx 30rpx 0;
+}
+.content{
+    
+}
+.pic-1{
+    width: 560rpx;
+    padding: 30rpx;
+    height: 800rpx;
+}
