@@ -1,0 +1,15 @@
+{
+  "name": "single",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
