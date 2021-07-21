@@ -1,3 +1,5 @@
+
+
 内置对象：
 全局：
     require、module.exports
@@ -114,7 +116,39 @@ res.jsonp('jack love rose');
 res.download('./app.js');  // 注意文件是如何被下载成功的
 // 基于服务器回写的content-type。等头信息
 
-express-art-template  中间件的使用
+art-template、express-art-template  中间件的使用
+
+暴露静态资源、服务端错误处理、404页面找不到
+
+文件上传 formidable中间件
+var form = new formidable.IncomingForm();
+form.uploadDir = path.join(__dirname,'public','imgs');
+form.keepExtensions = true;
+form.parse(req, function(err, fields, files)
+
+koa框架：
+1.引入对象 const Koa = require('koa')
+2.创建服务器对象 let server = new Koa
+3.处理响应 server.use(function (context) {
+    context.body = 'koa ok'
+})
+4.监听端口 server.listen(9999)
+ctx.url.method.headers
+ctx.set.status.body
+只要有异步的操作就要用async await promise
+中间件koa-bodyparser处理请求体数据
+中间件koa-router
+中间件koa-static处理静态资源
+中间件koa-art-template
+中间件koa-session
+
+
+
+
+
+
+
+
 
 
 
