@@ -49,11 +49,12 @@
                 <tbody class="list_container" id="list_container">
                     {{each musics}}
                     <tr>
+                        <td>{{$value.id}}</td>
                         <td>{{$value.title}}</td>
                         <td>{{$value.singer}}</td>
                         <td>{{$value.time}}</td>
-                        <td><a href="/music/edit-music?id={{$value.id}}">编辑</a></td>
-                        <td><a class="del" href="/music/del-music?id={{$value.id}}">删除</a></td>
+                        <td><a class="edit" href="/music/edit-music?id={{$value.id}}">编辑</a></td>
+                        <td><a class="del" href="/music/musicDel?id={{$value.id}}">删除</a></td>
                         <td><span style="cursor:pointer" src="" class="glyphicon glyphicon-play-circle ply" file="{{$value.file}}" filelrc="{{$value.filelrc}}"></span></td>
                     </tr>
                     {{/each}}
@@ -176,17 +177,24 @@
     // 4：监听滚动歌词的事件，获取秒数，查找p标签，并根据与lrc之间的top差，让lrc向上移动
 
     // 删除歌曲
-        // $('del').on('click', function(){
-        //     let id = 
+        // var a = $('.edit').attr('href')
+        // var str = a.split(':')
+        // // console.log(str)
+        // var id = str[1]
+        // $('#del').on('click', function(e){
+        //     e.preventDefault()
         //     $.ajax({
         //         url: '/music/del-music',
         //         type: 'delete',
-        //         data: id,
+        //         dataType: 'json',
+        //         data: 'id=9',
         //         success: function(data){
         //             if(data === '001'){
         //                 confirm('删除成功！')
+        //                 window.location = '/music/index'
         //                 return
         //             }
+        //             alert('删除失败！')
         //         }
         //     })
         // })

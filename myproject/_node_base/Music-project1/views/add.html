@@ -27,6 +27,7 @@
         </div>
         <button type="submit" class="btn btn-success">点击添加</button>
     </form>
+    <!-- <button class="btn btn-success">返回</button> -->
 </div>
 
 <script type="text/javascript">
@@ -41,6 +42,11 @@
 
         // 获取所有的inpupt
         var inputs = document.querySelectorAll('input')
+        console.log(inputs)
+        if (!inputs[3].value) {
+            alert("歌曲文件未上传，请上传歌曲文件！")
+            return
+        }
         var fd = new FormData()
         // 装载数据
         fd.append('title',inputs[0].value)
@@ -48,7 +54,7 @@
         fd.append('time',inputs[2].value)
         // 传文件对象的方式(files这个属性是原生dom的属性，jq获取的没有该属性)
         fd.append('file', inputs[3].files[0])
-        fd.append('filelrc', inputs[4].files[1])
+        fd.append('filelrc', inputs[4].files[0])
 
         // 发请求
         $.ajax({

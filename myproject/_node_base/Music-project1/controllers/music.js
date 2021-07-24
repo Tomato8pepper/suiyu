@@ -13,6 +13,7 @@ function optUpload(ctx) {
     let { title, singer, time } = ctx.request.body
     // 2.获取文件 ->  保存文件的网络路径 （方便/public请求返回）
     let { file, filelrc } = ctx.request.files
+    console.log(filelrc)
     // 保存文件的绝对路径也可以，但是麻烦
     let saveSingObj = { title, singer, time }
 
@@ -33,7 +34,7 @@ function optUpload(ctx) {
     saveSingObj.file = '/public/files/' + path.parse(file.path).base
 
     //加入用户id  未来用session
-    saveSingObj.uid = 1
+    saveSingObj.uid = ctx.session.user.id
     return saveSingObj
 }
 
@@ -79,9 +80,10 @@ module.exports = {
     },
     async deleteMusic(ctx, next) {
         // 接收请求URL中的查询字符串
-        let id = ctx.request.query.id      //
+        let { id } = ctx.request.body  
+        console.log(id);
         // 删除音乐
-        let result = musicModel.deleteMusicById(id)
+        let result =await musicModel.deleteMusicById(id)
         console.log(result)
         // 后续行为
         if(result.affectedRows === 0){
@@ -113,8 +115,23 @@ module.exports = {
         let uid = ctx.session.user.id
         // 根据id查询歌曲
         let musics = await musicModel.findMusicByUid(uid)
-        console.log(music)
+        // console.log(musics)
         // 展示给用户
         ctx.render('index', { musics })
+    },
+    async showDel(ctx, next) {
+        // 通过路由查询字符串参数
+        let id = ctx.query.id
+        // 通过id查询音乐
+        let musics = await musicModel.findMusicById(id)
+        // 判断是否有该歌曲
+        if(musics.length ===0){
+            // 甩异常错误页面
+            ctx.throw('歌曲不存在！！！')
+            return
+        }
+        let music = musics[0]
+        // 渲染delete页面
+        ctx.render('delete', {  music: music })
     }
 }

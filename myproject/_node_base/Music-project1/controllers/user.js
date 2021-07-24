@@ -74,6 +74,7 @@ module.exports = {
 
         // 2.查询用户名相关的用户
         let users = await userModel.findUserDataByUsername(username)
+        console.log(users)
         // console.log(users, username, password)
         // 2.5判断是否有用户
         if (users.length === 0) {

@@ -16,6 +16,7 @@ musicRouter
     ctx.render('add')
 })
 .get('/music/edit-music', musicController.showEdit)
+.get('/music/musicDel', musicController.showDel)
 
 module.exports = musicRouter
 

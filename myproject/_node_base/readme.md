@@ -1,5 +1,3 @@
-
-
 内置对象：
 全局：
     require、module.exports
@@ -142,7 +140,7 @@ ctx.set.status.body
 中间件koa-art-template
 中间件koa-session
 
-
+socketIo
 
 
 
