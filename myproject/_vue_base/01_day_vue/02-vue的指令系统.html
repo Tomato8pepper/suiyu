@@ -34,6 +34,7 @@
 					<div v-if = 'Math.random() > 0.5'>
 						此值大于0.5
 					</div>
+					<div v-else-if='Math.random() == 0.5'>此值等于0.5</div>
 					<div v-else>
 						此值小于0.5
 					</div>
@@ -46,7 +47,7 @@
 						</li>
 					</ul>
 					<ul>
-						<li v-for = '(value,key) in object'>
+						<li v-for = '(value,key,index) in object'>
 							{{ key }} -- {{value}}
 						</li>
 					</ul>

@@ -22,13 +22,14 @@
 			el:'#app',
 			template:`
 				<div>
-					<p class ='po' :class=" {active:isRed} " >bing绑定</p>
+					
+					<p class ='po' :class="{active: isRed}" >bing绑定</p>
 					<button @click = 'changeColor'>切换字体的颜色</button>
 				</div>
 			`,
 			data:function(){
 				return {
-					// msg:'active'
+					msg:'active',
 					isRed:false
 				}
 			},

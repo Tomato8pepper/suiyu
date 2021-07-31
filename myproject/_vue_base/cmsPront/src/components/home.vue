@@ -3,10 +3,10 @@
     <swipe url="getlunbo"></swipe>
     <div class="grid">
       <my-ul>
-        <my-li v-for="(route, index) in routes" :key="index">
-          <router-link :to="route.route">
-            <span :class="route.className"></span>
-            <div>{{ route.title }}</div>
+        <my-li v-for="(mode, index) in modes" :key="index">
+          <router-link :to="mode.route">
+            <span :class="mode.className"></span>
+            <div>{{ mode.title }}</div>
           </router-link>
         </my-li>
       </my-ul>
@@ -20,7 +20,7 @@ export default {
   components: { swipe },
   data() {
     return {
-      routes: [
+      modes: [
         {
           title: "新闻资讯",
           className: "back-news",

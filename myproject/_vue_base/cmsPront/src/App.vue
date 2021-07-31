@@ -37,7 +37,7 @@ export default {
   },
   watch: {
     // 不能使用箭头函数，因为this会向上绑定
-    selected: function (newVal, oldVal) {
+  selected: function (newVal, oldVal) {
       console.log(newVal);
       // console.log(this);
       this.$router.push({name: newVal})
