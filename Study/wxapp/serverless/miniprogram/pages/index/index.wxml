@@ -1,6 +1,0 @@
-<!-- <block wx:for="{{products}}">
-  <van-card price="{{item.price}}" desc="{{item.color}}" title="{{item.title}}" thumb="{{item.image}}" data-id="{{item._id}}" bindtap="gotoDetail" />
-</block> -->
-<view class="m30">
-  <van-button block type="primary" bindtap='uploadAvatar'>上传简历</van-button>
-</view>

@@ -1,6 +1,0 @@
-.arrow{
-    width: 20rpx;
-    height: 20rpx;
-    border: 1px solid #000;
-    display: block;
-}

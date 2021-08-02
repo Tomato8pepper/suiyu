@@ -1,3 +1,0 @@
-<view class="van-search {{ customClass }} {{ showAction || useActionSlot ? 'van-search--show-action' : '' }}" ></view>
-  <view class="van-search__field"></view>
-<van-field clearable type="search" left-icon="search" placeholder="{{ placeholder }}" bind:change="onChange" />
