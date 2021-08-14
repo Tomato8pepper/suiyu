@@ -1,5 +1,5 @@
 <template>
-     <mt-swipe :auto="4000">
+     <mt-swipe :auto="1000">
       <!-- v-for组件的时候需要给key,避免vue计算key，来提升性能 -->
       <!-- key就是位置的标识 -->
         <mt-swipe-item v-for="(item,index) in imgs||myimgs" :key="index" >
@@ -13,18 +13,7 @@
         props:['url','imgs'],
         data(){
             return {
-                myimgs:[
-                    {
-                        src: "https://scpic2.chinaz.net/Files/pic/pic9/202011/hpic3155_s.jpg",
-                        name: "title",
-                    },
-                    {
-                        src: "https://scpic.chinaz.net/Files/pic/pic9/202011/bpic21740_s.jpg",
-                    },
-                    {
-                        src: "https://scpic2.chinaz.net/Files/pic/pic9/202011/apic28944_s.jpg",
-                    },
-                ]
+                myimgs:[]
                 // myimgs:this.imgs
                 // myimgs的修改不会影响外部的this.imgs的重新渲染
                 // 子接收父的属性再去做显示，也不能显示成功，内部执行时机问题
@@ -36,23 +25,24 @@
 
             // console.log('====',this.imgs);
             // // 兼容传对象的方式
-            //     if(this.url) {
-            //         this.$axios.get(this.url)
-            //         .then(res=>{
-            //           this.myimgs = res.data.message;
-            //         })
-            //         .catch(err=>console.log(err));
-            //     }
+                if(this.url) {
+                    this.$axios.get(this.url)
+                    .then(res=>{
+                      this.myimgs = res.data.message;
+                    })
+                    .catch(err=>console.log(err));
+                }
         }
     }
 </script>
 <style scoped>
 .mint-swipe {
     width: 100%;
-    height:200px;
+    height:600px;
 }
 .mint-swipe img {
   width: 100%;
+  height: 100%;
 }
  
 </style>

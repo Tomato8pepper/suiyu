@@ -3,6 +3,7 @@ const Koa = require('koa')
 // 引入两个router
 const musicRouter = require('./routes/music')
 const userRouter = require('./routes/user')
+const goodsRouter = require('./routes/goods')
 
 // const bodyParser = require('koa-bodyparser')
 const formidable = require('koa-formidable')
@@ -65,7 +66,7 @@ app.keys = ['test']
 app.use(session({ store: store }, app))
 
 // 判断某些页面url的时候是否有session上的url(登录)
-app.use(checkLogin)
+// app.use(checkLogin)
 
 
 // 必须在每次请求挂载新的数据与视图的桥梁 (在session之后)
@@ -93,8 +94,15 @@ app.use(formidable({
     keepExtensions: true
 }))
 
+// 处理跨域
+app.use(async (ctx, next) => {
+    ctx.set("Access-Control-Allow-Origin", "*")
+    await next()
+})
+
 app.use(musicRouter.routes())
 app.use(userRouter.routes())
+app.use(goodsRouter.routes())
 //处理405 方法未实现  和501 方法不支持
 app.use(userRouter.allowedMethods())
 //

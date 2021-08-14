@@ -24,7 +24,7 @@ import Installer from '@/plugins/installer';
 Vue.use(Installer);
 // 给Vue的原型挂载 $axios属性
 Vue.prototype.$axios = Axios;
-Axios.defaults.baseURL = 'http://www.sinya.online/api/';
+Axios.defaults.baseURL = 'http://127.0.0.1:3000/api/';
 // 定义拦截器
 // 1: 请求发起前显示loading open();
 Axios.interceptors.request.use(function(config) {

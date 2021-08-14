@@ -15,10 +15,6 @@
            首页
         </div>
     </mt-tab-item>
- 
-  
-    
-
 
     <mt-tab-item id="Member">
       <div @click="change('Member')">
@@ -93,7 +89,7 @@ export default {
 }
 
 .mint-tab-item-label img {
-  display: block;
+    display: block;
     width: 25px;
     height: 25px;
     margin: 0 auto;

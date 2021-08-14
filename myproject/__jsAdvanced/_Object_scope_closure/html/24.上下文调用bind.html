@@ -17,10 +17,10 @@
             
             var _that=this;
 
-            setTimeout(function(){
+            setTimeout(function () {
                 //this指向window
-                console.log(this.age); 
-                console.log(_that.age); 
+                console.log(this.age);   // undefined
+                console.log(_that.age);  // 18
                 //18？是错误的
                 //undefined是正确的
             },50);
