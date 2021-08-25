@@ -1,7 +1,7 @@
 const db = require('./db.js')
 module.exports = {
     //xxx: () => db.q('xxx')
-    getlunbo () {
+    getlunbo() {
         let message = [
             {
                 src: "http://localhost:3000/img/1.jpg",
@@ -30,7 +30,7 @@ module.exports = {
         ]
         return message
     },
-    getnewslist () {
+    getnewslist() {
         let message = [
             {
                 id: 01,
@@ -75,7 +75,7 @@ module.exports = {
         ]
         return message
     },
-    getnew (id) {
+    getnew(id) {
         let message1 = [
             {
                 id: 01,
@@ -152,83 +152,310 @@ module.exports = {
         })
         return message
     },
-    getimages () {
+    getimages(cateid) {
         let message = [
-            {
+            [{
                 id: 0,
-                title: '法律手段积分离开爽肤水来得及啊',
-                img_url: 'https://scpic2.chinaz.net/Files/pic/pic9/202011/apic28944_s.jpg',
-                zhaiyao: '解sdfs发送到大杀四方是防守打法间法律手段纠纷'
+                title: '好好学习，天天向上',
+                img_url: 'http://localhost:3000/img/3.jpg',
+                zhaiyao: '这个小姐姐好漂亮哦，别看好好学习'
             },
             {
-                iid: 14,
+                id: 1,
+                title: '好好学习，天天向上',
+                img_url: 'http://localhost:3000/img/5.jpg',
+                zhaiyao: '这个小姐姐好漂亮哦，别看好好学习'
+            },
+            {
+                id: 2,
+                title: '好好学习，天天向上',
+                img_url: 'http://localhost:3000/img/5.jpg',
+                zhaiyao: '这个小姐姐好漂亮哦，别看好好学习'
+            },
+            {
+                id: 3,
+                title: '好好学习，天天向上',
+                img_url: 'http://localhost:3000/img/5.jpg',
+                zhaiyao: '这个小姐姐好漂亮哦，别看好好学习'
+            },
+            {
+                id: 4,
                 title: '法律焚膏继晷风格很反恢复规划水来得及啊',
-                img_url: 'https://scpic2.chinaz.net/Files/pic/pic9/202011/apic28944_s.jpg',
-                zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
-            }
+                img_url: 'http://localhost:3000/img/5.jpg',
+                zhaiyao: '这个小姐姐好漂亮哦，别看好好学习'
+            },
+            {
+                id: 5,
+                title: '好好学习，天天向上',
+                img_url: 'http://localhost:3000/img/5.jpg',
+                zhaiyao: '这个小姐姐好漂亮哦，别看好好学习'
+            },
+            {
+                id: 6,
+                title: '好好学习，天天向上',
+                img_url: 'http://localhost:3000/img/5.jpg',
+                zhaiyao: '这个小姐姐好漂亮哦，别看好好学习'
+            }],
+            [
+                {
+                    id: 0,
+                    title: '好好学习，天天向上',
+                    img_url: 'http://localhost:3000/img/4.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                },
+                {
+                    id: 1,
+                    title: '好好学习，天天向上',
+                    img_url: 'http://localhost:3000/img/4.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                }
+            ],
+            [
+                {
+                    id: 0,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/5.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                },
+                {
+                    id: 1,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/5.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                },
+                {
+                    id:2,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/5.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                },
+                {
+                    id: 3,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/5.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                }
+            ],
+            [
+                {
+                    id: 0,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/6.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                },
+                {
+                    id: 1,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/6.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                },
+                {
+                    id: 2,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/6.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                },
+                {
+                    id: 3,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/6.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                }
+            ],
+            [
+                {
+                    id: 0,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/7.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                },
+                {
+                    id: 1,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/7.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                },
+                {
+                    id: 2,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/7.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                },
+                {
+                    id: 3,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/7.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                }
+            ],
+            [
+                {
+                    id: 0,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/8.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                },
+                {
+                    id: 1,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/8.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                },
+                {
+                    id: 2,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/8.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                },
+                {
+                    id: 3,
+                    title: '法律焚膏继晷风格很反恢复规划水来得及啊',
+                    img_url: 'http://localhost:3000/img/8.jpg',
+                    zhaiyao: '解放路开始的减肥士大夫士大夫是大法官电话费'
+                }
+            ]
+
         ]
-        return message
+        
+        return message[cateid]
     },
-    getimgcategory () {
+    getimgcategory() {
         let message = [
             {
                 title: '家居生活',
-                id: 14
+                id: 1
             },
             {
                 title: '摄影设计',
-                id: 15
+                id: 2
+            },
+            {
+                title: '青春靓丽',
+                id: 3
+            },
+            {
+                title: '好好学习',
+                id: 4
+            },
+            {
+                title: '天天向上',
+                id: 5
             }
         ]
         return message
     },
-    getthumimages () {
+    getthumimages(imgid) {
         let message = [
-            {
-                src: "https://scpic2.chinaz.net/Files/pic/pic9/202011/hpic3155_s.jpg",
+            [{
+                src: "http://localhost:3000/img/8.jpg",
                 name: "title",
             },
             {
-                src: "https://scpic.chinaz.net/Files/pic/pic9/202011/bpic21740_s.jpg",
+                src: "http://localhost:3000/img/3.jpg",
             },
             {
-                src: "https://scpic2.chinaz.net/Files/pic/pic9/202011/apic28944_s.jpg",
+                src: "http://localhost:3000/img/6.jpg",
+            }],
+            [{
+                src: "http://localhost:3000/img/1.jpg",
+                name: "title",
             },
+            {
+                src: "http://localhost:3000/img/7.jpg",
+            },
+            {
+                src: "http://localhost:3000/img/3.jpg",
+            }],
+            [{
+                src: "http://localhost:3000/img/2.jpg",
+                name: "title",
+            },
+            {
+                src: "http://localhost:3000/img/4.jpg",
+            },
+            {
+                src: "http://localhost:3000/img/3.jpg",
+            }],
+            [{
+                src: "http://localhost:3000/img/6.jpg",
+                name: "title",
+            },
+            {
+                src: "http://localhost:3000/img/4.jpg",
+            },
+            {
+                src: "http://localhost:3000/img/3.jpg",
+            }],
+            [{
+                src: "http://localhost:3000/img/3.jpg",
+                name: "title",
+            },
+            {
+                src: "http://localhost:3000/img/7.jpg",
+            },
+            {
+                src: "http://localhost:3000/img/3.jpg",
+            }],
+            [{
+                src: "http://localhost:3000/img/7.jpg",
+                name: "title",
+            },
+            {
+                src: "http://localhost:3000/img/4.jpg",
+            },
+            {
+                src: "http://localhost:3000/img/3.jpg",
+            }],
+            [{
+                src: "http://localhost:3000/img/8.jpg",
+                name: "title",
+            },
+            {
+                src: "http://localhost:3000/img/4.jpg",
+            },
+            {
+                src: "http://localhost:3000/img/3.jpg",
+            }],
+            [{
+                src: "http://localhost:3000/img/7.jpg",
+                name: "title",
+            },
+            {
+                src: "http://localhost:3000/img/4.jpg",
+            },
+            {
+                src: "http://localhost:3000/img/2.jpg",
+            }],
         ]
-        return message
+        return message[imgid]
     },
-    getimageInfo () {
+    getimageInfo(imgid) {
         let message = [
             {
-                id: 13,
                 title: '房价要跌了，大伙赶紧准备去买房呀，噜啦噜啦给对方感受到颠大范甘迪分工嘞绿绿绿绿',
                 add_time: '2020-04-27',
                 click: 2,
                 content: "<p>福利局阿萨德连放假啦的酸辣粉记录上的解放啦圣诞节放假伤的肺类设计色发色肤水机的酸辣粉橘色金佛山塑料袋副教授乐福酸辣粉双丰收了佛</p>",
             },
             {
-                id: 14,
                 title: '及分类撒旦教弗兰克，噜啦噜的鬼地方个冬瓜豆腐啦嘞绿绿绿绿',
                 add_time: '2020-04-28',
                 click: 6,
                 content: "<p>福利局阿萨德连放假啦的酸辣粉记录上的解放啦圣诞节放假伤的肺类设计色发色肤水机的酸辣粉橘色金佛山塑料袋副教授乐福酸辣粉双丰收了佛</p>",
             },
             {
-                id: 15,
                 title: '及分类撒旦教弗兰克，噜啦噜大哥电饭锅电饭锅啦嘞绿绿绿绿',
                 add_time: '2020-04-28',
                 click: 6,
                 content: "<p>福利局阿萨德连放假啦的酸辣粉记录上的解放啦圣诞节放假伤的肺类设计色发色肤水机的酸辣粉橘色金佛山塑料袋副教授乐福酸辣粉双丰收了佛</p>",
             },
             {
-                id: 16,
                 title: '发送到发送到的所发生的啦噜啦嘞绿绿绿绿',
                 add_time: '2020-04-28',
                 click: 6,
                 content: "<p>福利局阿萨德连放假啦的酸辣粉记录上的解放啦圣诞节放假伤的肺类设计色发色肤水机的酸辣粉橘色金佛山塑料袋副教授乐福酸辣粉双丰收了佛</p>",
             },
             {
-                id: 17,
                 title: '及分类还让他海富通海富通嘞绿绿绿绿',
                 add_time: '2020-04-28',
                 click: 6,
@@ -237,10 +464,10 @@ module.exports = {
         ]
         return message
     },
-    getgoods () {
+    getgoods() {
         let message = [
             {
-                id: 87,
+                id: 1,
                 title: 'xxxx',
                 add_time: '1224-10-23',
                 zhaiyao: 'xxx',
@@ -251,18 +478,330 @@ module.exports = {
                 stock_quantity: 60
             },
             {
-                id: 88,
+                id: 2,
                 title: 'xxxx',
                 add_time: '1224-10-23',
                 zhaiyao: 'xxx',
                 click: 0,
-                img_url: 'http://localhost:3000/img/1.jpg',
+                img_url: 'http://localhost:3000/img/5.jpg',
                 sell_price: 1111,
                 market_price: 2354,
                 stock_quantity: 60
             },
+            {
+                id: 3,
+                title: 'xxxx',
+                add_time: '1224-10-23',
+                zhaiyao: 'xxx',
+                click: 0,
+                img_url: 'http://localhost:3000/img/2.jpg',
+                sell_price: 1111,
+                market_price: 2354,
+                stock_quantity: 60
+            },
+            {
+                id: 4,
+                title: 'xxxx',
+                add_time: '1224-10-23',
+                zhaiyao: 'xxx',
+                click: 0,
+                img_url: 'http://localhost:3000/img/3.jpg',
+                sell_price: 1111,
+                market_price: 2354,
+                stock_quantity: 60
+            },
+            {
+                id: 5,
+                title: 'xxxx',
+                add_time: '1224-10-23',
+                zhaiyao: 'xxx',
+                click: 0,
+                img_url: 'http://localhost:3000/img/4.jpg',
+                sell_price: 1111,
+                market_price: 2354,
+                stock_quantity: 60
+            },
+            {
+                id: 6,
+                title: 'xxxx',
+                add_time: '1224-10-23',
+                zhaiyao: 'xxx',
+                click: 0,
+                img_url: 'http://localhost:3000/img/4.jpg',
+                sell_price: 1111,
+                market_price: 2354,
+                stock_quantity: 60
+            },
+            {
+                id: 7,
+                title: 'xxxx',
+                add_time: '1224-10-23',
+                zhaiyao: 'xxx',
+                click: 0,
+                img_url: 'http://localhost:3000/img/5.jpg',
+                sell_price: 1111,
+                market_price: 2354,
+                stock_quantity: 60
+            },
+            {
+                id: 8,
+                title: 'xxxx',
+                add_time: '1224-10-23',
+                zhaiyao: 'xxx',
+                click: 0,
+                img_url: 'http://localhost:3000/img/6.jpg',
+                sell_price: 1111,
+                market_price: 2354,
+                stock_quantity: 60
+            },
+            {
+                id: 9,
+                title: 'xxxx',
+                add_time: '1224-10-23',
+                zhaiyao: 'xxx',
+                click: 0,
+                img_url: 'http://localhost:3000/img/7.jpg',
+                sell_price: 1111,
+                market_price: 2354,
+                stock_quantity: 60
+            },
+            {
+                id: 10,
+                title: 'xxxx',
+                add_time: '1224-10-23',
+                zhaiyao: 'xxx',
+                click: 0,
+                img_url: 'http://localhost:3000/img/8.jpg',
+                sell_price: 1111,
+                market_price: 2354,
+                stock_quantity: 60
+            }
         ]
         return message
+    },
+    getinfo (imgid) {
+        let message = [
+            {
+                id: 0,
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 1,
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id:2,
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id:3,
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 4,
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 5,
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 6,
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 7,
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 8,
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 9,
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 10,
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            }
+        ]
+        return message[imgid]
+    },
+    getshopcarlist (idArr) {
+        let message = [
+            {
+                id: 0,
+                thumb_path: 'http://localhost:3000/img/1.jpg',
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 1,
+                thumb_path: 'http://localhost:3000/img/7.jpg',
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id:2,
+                thumb_path: 'http://localhost:3000/img/2.jpg',
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 3,
+                thumb_path: 'http://localhost:3000/img/3.jpg',
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 4,
+                thumb_path: 'http://localhost:3000/img/4.jpg',
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 5,
+                thumb_path: 'http://localhost:3000/img/5.jpg',
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 6,
+                thumb_path: 'http://localhost:3000/img/6.jpg',
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 7,
+                thumb_path: 'http://localhost:3000/img/6.jpg',
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 8,
+                thumb_path: 'http://localhost:3000/img/6.jpg',
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 9,
+                thumb_path: 'http://localhost:3000/img/6.jpg',
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            },
+            {
+                id: 10,
+                thumb_path: 'http://localhost:3000/img/6.jpg',
+                title: '好好学习，天天向上',
+                market_price: 3333,
+                sell_price: 2355,
+                goods_no: 23453325,
+                stock_quantity: 33,
+                add_time: 2020-06-02,
+            }
+        ]
+        let message1 = []
+        for (let i = 0; i < idArr.length; i++) {
+            let j = idArr[i]
+            message1[i] = message[j]
+        }
+        return message1
     }
-    
+
 }
