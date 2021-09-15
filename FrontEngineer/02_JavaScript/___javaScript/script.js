@@ -1,1 +1,0 @@
-document.write("引用外部文件");
