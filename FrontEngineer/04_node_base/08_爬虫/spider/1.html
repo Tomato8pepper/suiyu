@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="#/your">your</a></li>
+        <li><a href="#/mine">mine</a></li>
+    </ul>
+    <div id="routeView"></div>
+    <script>
+        window.addEventListener('DOMContentLoaded', onload)
+        window.addEventListener('hashchange', onhashchange)
+        let routeView = null
+        function onload() {
+            routeView = document.querySelector('#routeView')
+            onhashchange()
+        }
+        function onhashchange() {
+            switch(location.hash) {
+                case '#/your':
+                    routeView.innerHTML = 'yourself'
+                    return
+                case '#/mine':
+                    routeView.innerHTML = 'myself'
+                    return
+                default:
+                    return
+            }
+        }
+    </script>
+</body>
+</html>

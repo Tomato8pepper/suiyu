@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-item{
+            display: block;
+            height: 300px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <img class="image-item" src="" lazy-load="true" data-original="http://127.0.0.1:3000/img/1.jpg" alt="">
+    <img class="image-item" src="" lazy-load="true" data-original="http://127.0.0.1:3000/img/2.jpg" alt="">
+    <img class="image-item" src="" lazy-load="true" data-original="http://127.0.0.1:3000/img/3.jpg" />
+    <img class="image-item" src="" lazy-load="true" data-original="http://127.0.0.1:3000/img/4.jpg" alt="">
+    <img class="image-item" src="" lazy-load="true" data-original="http://127.0.0.1:3000/img/5.jpg" alt="">
+    <img class="image-item" src="" lazy-load="true" data-original="http://127.0.0.1:3000/img/6.jpg" alt="">
+    <img class="image-item" src="" lazy-load="true" data-original="http://127.0.0.1:3000/img/7.jpg" alt="">
+    <img class="image-item" src="" lazy-load="true" data-original="http://127.0.0.1:3000/img/8.jpg" alt="">
+    <img class="image-item" src="" lazy-load="true" data-original="http://127.0.0.1:3000/img/8.jpg" alt="">
+    <img class="image-item" src="" lazy-load="true" data-original="http://127.0.0.1:3000/img/7.jpg" alt="">
+    <img class="image-item" src="" lazy-load="true" data-original="http://127.0.0.1:3000/img/6.jpg" alt="">
+    <img class="image-item" src="" lazy-load="true" data-original="http://127.0.0.1:3000/img/5.jpg" alt="">  
+</body>
+<script>
+    // let viewHeight = window.innerHeight
+    let viewHeight = document.documentElement.clientHeight
+    console.log(viewHeight)
+
+    function lazyLoad() {
+        let eles = document.querySelectorAll('img[data-original][lazy-load]')
+        // console.log(eles)
+        // 判断每一个img是否出现在可视区域
+        // eles.forEach((item,index) =>{
+        //     console.log(item)
+        // })
+        Array.prototype.forEach.call(eles, function(item, index){
+            console.log(item)
+            let rect
+            rect = item.getBoundingClientRect() //用于获取页面元素上某个元素的左右上下分别相对于浏览器视窗的位置
+            // console.log(rect)
+            //元素bottom,top距离顶部    元素left,right距离屏幕左边
+            if(rect.bottom >= 0 && rect.top < viewHeight){
+                !function() {
+                    let img = new Image()
+                    img.src = item.dataset.original
+                    img.onload = function() {
+                        item.src = img.src
+                    }
+                    item.removeAttribute('data-original')
+                    item.removeAttribute('lazyload')
+                }()
+            }
+         })
+        // Array.from(eles)   //强制把eles转换成数组
+
+    }
+    lazyLoad()
+    document.addEventListener('scroll', lazyLoad)
+</script>
+</html>

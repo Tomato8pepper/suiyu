@@ -1,0 +1,13 @@
+.item{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 128rpx;
+    background-color: #dbdbdb;
+    overflow: hidden;
+}
+.item-tit{
+    font-size: 30rpx;
+    position: absolute;
+    bottom: 15rpx;
+}

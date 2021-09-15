@@ -1,0 +1,92 @@
+<nav-bar></nav-bar>
+<view class="break">
+    <view class="group-title">
+        <view class="text-1" bindtap="transplan" style="color:{{colorChange?'#ffffff':'#aaaaaa'}}">官方打卡</view>
+        <view class="text-2" bindtap="transplan1" style="color:{{colorChange1?'#ffffff':'#aaaaaa'}}">精选打卡</view>
+        <view style="margin-left:{{isMl?'220rpx':'475rpx'}}" class="bottomline"></view>
+    </view>
+    <scroll-view class="group-left" scroll-y="true" style="left: {{isLeft?'0rpx':'-750rpx'}}">
+        <view class="datastruct">
+            <view class="sign">
+                <text class="sign-d">打卡</text>
+                <text class="sign-dec">60天攻克 [数据结构与算法] 行动第二期</text>
+            </view>
+            <view class="second">
+                <text class="sign-con">58270次围观 · 19797次参与</text>
+                <text class="sign-join join">加入小组</text>
+            </view>
+            <view class="border-bottom"></view>
+            <view class="diss">
+                <image src="../image/touxiang.jpg" />
+                <view class="text">打卡day11：散列表（上）：Word文档..</view>
+            </view>
+            <view class="diss">
+                <image class="" src="../image/t5.jpg" />
+                <view class="text">打卡day8：排序优化：如何实现一个通..</view>
+            </view>
+        </view>
+        <view class="blank"></view>
+        <block wx:for="{{study}}" wx:key="index">
+            <view class="datastruct-c">
+                <view class="sign">
+                    <text class="sign-d">打卡</text>
+                    <text class="sign-dec">{{item.title}}</text>
+                </view>
+                <view class="second">
+                    <text class="sign-con">{{item.content}}</text>
+                    <text class="sign-join join">加入小组</text>
+                </view>
+                <view class="border-bottom"></view>
+                <view class="diss">
+                    <image src="../image/touxiang.jpg" />
+                    <view class="text">{{item.commentOne}}</view>
+                </view>
+                <view class="diss">
+                    <image class="" src="../image/t5.jpg" />
+                    <view class="text">{{item.commentTwo}}</view>
+                </view>
+            </view>
+        </block>
+    </scroll-view>
+    <scroll-view class="group-right" scroll-y="true" style="left: {{isLeft?'750rpx':'0rpx'}}">
+        <view class="datastruct">
+            <view class="sign">
+                <text class="sign-d">打卡</text>
+                <text class="sign-dec">左耳朵耗子带你重学《左耳听风》</text>
+            </view>
+            <view class="second">
+                <text class="sign-con">58270次围观 · 19797次参与</text>
+                <text class="sign-join join">加入小组</text>
+            </view>
+            <view class="border-bottom"></view>
+            <view class="diss">
+                <image src="../image/touxiang.jpg" />
+                <view class="text">打卡day11：散列表（上）：Word文档..</view>
+            </view>
+            <view class="diss">
+                <image class="" src="../image/t5.jpg" />
+                <view class="text">打卡day8：排序优化：如何实现一个通..</view>
+            </view>
+        </view>
+        <view class="blank"></view>
+        <view class="datastruct-c" wx:for="{{study1}}" wx:key="index">
+            <view class="sign">
+                <text class="sign-d">打卡</text>
+                <text class="sign-dec">{{item.title}}</text>
+            </view>
+            <view class="second">
+                <text class="sign-con">{{item.content}}</text>
+                <text class="sign-join join">加入小组</text>
+            </view>
+            <view class="border-bottom"></view>
+            <view class="diss">
+                <image src="../image/touxiang.jpg" />
+                <view class="text">{{item.commentOne}}</view>
+            </view>
+            <view class="diss">
+                <image class="" src="../image/t5.jpg" />
+                <view class="text">{{item.commentTwo}}</view>
+            </view>
+        </view>
+    </scroll-view>
+</view>

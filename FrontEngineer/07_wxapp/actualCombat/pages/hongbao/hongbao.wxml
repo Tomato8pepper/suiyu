@@ -1,0 +1,67 @@
+<view class="container">
+    <!-- 微信红包头部 -->
+    <view class="head">
+        <image class = "head-bgc" src="./images/red-envelope.png"/>      
+        <view class="head-user-picture">
+                <!-- 设置头像 -->
+            <image class= "user-picture" src="./images/chengguo.jpg" />
+        </view>
+
+        <!-- 设置头像下文字内容 -->
+        <view class="content">
+            <view class="head-user-name">
+            成果成果成狗           
+            </view>
+            <view class="content-cgl">
+                恭喜发财 大吉大利
+            </view><view class="content-money">
+                <view class="money">
+                    12.3
+                </view>
+                <view class="unit">
+                    元
+                </view>
+            </view>
+        </view>
+        <!-- 设置用户交互功能界面 -->
+        <view class="interactive">
+            <view class="record">
+                红包记录
+            </view>
+            <view class="withdrawal">
+                前去提现
+            </view>
+            <view class="forward">
+                转发给好友
+            </view>
+        </view>
+    <!-- 设置领取记录页面 -->
+    </view>
+    <view class="receive_rec">
+        <view class="receive_count">
+        共一百个，已领取3个
+        </view>
+        <view class="recipient">
+            <view class="break">
+                拆红包
+            </view>
+            <view class="user">
+                (浅浅的夏)
+            </view>
+            <view class="date">
+                2018/12/20  21:43
+            </view>
+        </view>
+        <view class="recipient">
+            <view class="break">
+                拆红包
+            </view>
+            <view class="user">
+                (浅浅的夏)
+            </view>
+            <view class="date">
+                2018/12/20  21:43
+            </view>
+        </view>
+    </view>
+</view>

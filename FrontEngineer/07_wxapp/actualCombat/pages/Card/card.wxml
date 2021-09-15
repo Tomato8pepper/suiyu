@@ -1,0 +1,105 @@
+<view class="card">
+    <scroll-view class="card-wrapper" scroll-x="false" scroll-y="false" upper-threshold="50" lower-threshold="50" scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" bindscrolltoupper="" bindscrolltolower="" bindscroll="">
+        <view class="user-info">
+            <view class="user-info_pic">
+                <image class="user" src="./image/user1.png" />
+            </view>
+            <view class="user-info_desc">
+                <view class="view0">
+                    <view class="name">Alice</view>
+                    <view class="sex">
+                        <image class="sexp" src="./image/girl.png" />
+                    </view>
+                </view>
+                <view class="view1">
+                    <view class="t1">开朗</view>
+                    <view class="t2">自由职业</view>
+                    <view class="t3">爱折腾</view>
+                </view>
+                <view class="view2">
+                    <view class="loc-pic">
+                        <image class="loc-img" src="./image/location.png" />
+                    </view>
+                    <view class="shenzhen">深圳市</view>
+                    <view class="in-pic">
+                        <image class="in-img" src="./image/hulianwang.png" />
+                    </view>
+                    <view class="internet">互联网</view>
+                </view>
+                <view class="view3">
+                    <view class="heart-pic">
+                        <image class="heart-img" src="./image/aixin.png" />
+                    </view>
+                    <view class="jueseby">角色扮演</view>
+                    <view class="wechat-pic">
+                        <image class="wechat-img" src="./image/wechat.png" />
+                    </view>
+                    <view class="wechat-name">luoqi741</view>
+                </view>
+                <view class="view4">
+                    <view class="tel-pic">
+                        <image class="tel-img" src="./image/tel.png" />
+                    </view>
+                    <view class="telephone">15017933191</view>
+                </view>
+            </view>
+            <view class="pic-container">
+                <view class="ewm-pic">
+                    <image class="ewm-img" src="./image/ewm.png" />
+                </view>
+                <view class="hb-pic">
+                    <image class="hb-img" src="./image/envelope.png" />
+                </view>
+            </view>
+        </view>
+        <view class="user-brow">
+            <view class="pic-1">
+                <image class="touxiang" src="./image/touxiang1.jpg" />
+            </view>
+            <view class="pic-2">
+                <image class="touxiang" src="./image/touxiang2.jpg" />
+            </view>
+            <view class="pic-3">
+                <image class="touxiang" src="./image/touxiang3.jpg" />
+            </view>
+            <view class="commit">今天2人，累计1092人看过我</view>
+            <view class="arrow">
+                <image class="arrow-img" src="./image/arrow-right.png">
+                    
+                </image>
+            </view>
+        </view>
+        <view class="provide">
+            <view class="tit1">提供</view>
+            <view class="con">软件设计、平面设计、产品设计、电商海报、商场装修、各种你可以想到的设计</view>
+        </view>
+        <view class="need">
+            <view class="tit2">需求</view>
+            <view class="con">软件设计、平面设计、产品设计、电商海报、商场装修、各种你可以想到的设计.</view>
+        </view>
+        <view class="ad">
+            <image class="design" src="./image/design.png" />
+        </view>
+        <view class="per">
+            <view class="tit3">个人品牌</view>
+            <view class="content">
+                <view class="per-pic1">
+                    <image class="design" src="./image/per1.png" />
+                </view>
+                <view class="per-pic2">
+                    <image class="design" src="./image/per2.png" />
+                </view>
+                <view class="per-pic3">
+                    <image class="design" src="./image/per3.png" />
+                </view>
+            </view>
+        </view>
+        <view class="button">
+            <view class="edi">
+                <image class="bianji-pic" src="./image/bianji.png"></image>
+                编辑
+            </view>
+            <view class="share">分享图片</view>
+        </view>
+    </scroll-view>
+</view>

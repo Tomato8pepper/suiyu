@@ -1,0 +1,51 @@
+.wrapper .group{
+  /* width: 100%; */
+  /* 所有的手机都是750rpx */
+  /* width: 750rpx; */
+  /* p0-36rpx10rpx36rpx */
+  padding: 0 36rpx 10rpx 36rpx;
+  /* background-color: green; */
+  background-color: #fff;
+  margin-bottom: 16rpx;
+}
+.wrapper .group-bar{
+  height: 114rpx;
+  text-align: center;
+}
+.wrapper .group-title{
+  position: relative;
+  display: inline-block;
+  padding: 0 12rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border-radius: 4rpx;
+  border: 1rpx solid #e0e0e2;
+  font-size: 28rpx;
+  color: #cccccc;
+  margin-top: 38rpx;
+}
+.wrapper .group-content-item{
+  position: relative;
+  width: 100%;
+  height: 194rpx;
+  margin-bottom: 28rpx;
+
+}
+.wrapper .group-content-item-desc{
+  font-size: 36rpx;
+  font-weight: 500;
+  height: 156rpx;
+  line-height: 52rpx;
+  margin-right: 300rpx;
+  margin-top: 8rpx;
+  overflow: hidden;
+  color: #333333
+}
+.wrapper .group-content-item-img{
+  position: absolute;
+  right: 0;
+  top: 0;
+  vertical-align: top;
+  width: 260rpx;
+  height: 194rpx;
+}

@@ -1,0 +1,464 @@
+.card{
+    width: 100vw;
+    height: 100vh;
+}
+/* 滚轮背景 */
+.card-wrapper{
+    width: 100%;
+    height: 100%;
+    background: #f5fafe;
+}
+/* 用户信息 */
+.user-info{
+    width: 340px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    /* box-sizing: border-box; */
+    height: 345px;
+    /* overflow: hidden; */
+    /* border: 1px solid #aaa; */
+    box-shadow: 0 0 16px #aaa;
+    border-radius: 12px 12px 12px 12px; 
+    position: relative;
+}
+.user-info_pic{
+    width: 345px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.user-info_pic .user{
+    width: 100%;
+    height: 100%;
+}
+.view0{
+    width: 65px;
+    height: 12px;
+    position: relative;
+    /* display: inline-block; */
+    margin-left: 12px;
+    margin-bottom: 11px;
+    font-size: 12px;
+}
+.name{
+    position: absolute;
+    top: 0;
+    height: 12px;
+    width: 34px;
+}
+.sex{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 36px;
+}
+.sexp{
+    width: 12px;
+    height: 12px;
+    /* position: absolute; */
+    top: 0;
+}
+.view1{
+    width: 164px;
+    height: 21px;
+    /* 有用 */
+    /* display: flex; */
+    position: relative;
+    margin-left: 12px;
+    margin-bottom: 11px;
+    font-size: 12px;    
+    
+}
+.t1{
+    position: absolute;
+    left: 0;
+    width: 42px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    background: hsl(216, 66%, 64%);
+    border-radius: 5px;
+}
+.t2{
+    position: absolute;
+    left: 46px;
+    width: 62px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    background: rgb(68, 201, 63);
+    border-radius: 5px;
+}
+.t3{
+    position: absolute;
+    left: 112px;
+    width: 54px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    background: rgb(231, 141, 67);
+    border-radius: 5px;
+}
+.view2{
+    width: 190px;
+    margin-left: 14px;
+    margin-bottom: 11px;
+    height: 13px;
+    position: relative;
+}
+.loc-pic{
+    width: 10px;
+    height: 13px;
+    position: absolute;
+}
+.loc-img{
+    width: 10px;
+    height: 13px;
+    position: absolute;  
+    left: 0;
+    bottom: 0;
+}
+.shenzhen{
+    position: absolute;
+    width: 40px;
+    height: 13px;
+    left: 18px;
+    top: 0;
+    font-size: 13px;
+    line-height: 13px;
+}
+.in-pic{
+    width: 10px;
+    height: 13px;
+    position: absolute;
+    left: 134px;
+}
+.in-img{
+    width: 10px;
+    height: 13px;
+    position: absolute;  
+    left: 0;
+    bottom: 0;
+}
+.internet{
+    position: absolute;
+    width: 40px;
+    height: 13px;
+    left: 150px;
+    top: 0;
+    font-size: 13px;
+    line-height: 13px;
+}
+.view3{
+    width: 190px;
+    margin-left: 14px;
+    margin-bottom: 11px;
+    height: 13px;
+    position: relative;
+}
+.heart-pic{
+    width: 10px;
+    height: 13px;
+    position: absolute;
+}
+.heart-img{
+    width: 10px;
+    height: 13px;
+    position: absolute;  
+    left: 0;
+    bottom: 0;
+}
+.jueseby{
+    position: absolute;
+    width: 59px;
+    height: 13px;
+    left: 18px;
+    top: 0;
+    font-size: 13px;
+    line-height: 13px;
+}
+.wechat-pic{
+    width: 10px;
+    height: 13px;
+    position: absolute;
+    left: 134px;
+}
+.wechat-img{
+    width: 10px;
+    height: 13px;
+    position: absolute;  
+    left: 0;
+    bottom: 0;
+}
+.wechat-name{
+    position: absolute;
+    width: 40px;
+    height: 13px;
+    left: 150px;
+    top: 0;
+    font-size: 13px;
+    line-height: 13px;
+}
+.view4{
+    width: 190px;
+    margin-left: 14px;
+    margin-bottom: 11px;
+    height: 13px;
+    position: relative;
+}
+.tel-pic{
+    width: 10px;
+    height: 13px;
+    position: absolute;
+}
+.tel-img{
+    width: 10px;
+    height: 13px;
+    position: absolute;  
+    left: 0;
+    bottom: 0;
+}
+.telephone{
+    position: absolute;
+    width: 59px;
+    height: 13px;
+    left: 18px;
+    top: 0;
+    font-size: 13px;
+    line-height: 13px;
+}
+.pic-container{
+    width: 60px;
+    height: 120px;
+    position: absolute;
+    right: 0;
+    bottom: -6px;
+}
+.ewm-pic{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+.ewm-img{
+    width: 100%;
+    height: 100%;
+
+}
+.hb-pic{
+    width: 57px;
+    height: 62px;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+.hb-img{
+    width: 100%;
+    height: 100%;
+}
+.user-brow{
+    width: 340px;
+    height: 52px;
+    /* margin-top: 15px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    position: relative;
+    box-shadow: 0 0 16px #aaa;
+    border-radius: 10px; 
+}
+.pic-1{
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    left: 15px;
+    top: 8px;
+}
+.pic-2{
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    left: 55px;
+    top: 8px;
+}
+.pic-3{
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    left: 95px;
+    top: 8px;
+}
+.touxiang{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%; 
+}
+.commit{
+    width: 164px;
+    height: 14px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+    position: absolute;
+    top: 19px;
+    left: 150px; 
+}
+.arrow{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 17px;
+    left: 320px;
+}
+.arrow-img{
+    width: 100%;
+    height: 100%;
+}
+.provide{
+    width: 340px;
+    height: 86px;
+    box-shadow: 0 0 16px #aaa;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    position: relative;
+}
+.need{
+    width: 340px;
+    height: 86px;
+    box-shadow: 0 0 16px #aaa;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    position: relative;
+}
+.tit1{
+    width: 200px;
+    height: 15px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    border-left: 2px solid blue;
+    line-height: 15px
+    
+}
+.tit2{
+    width: 200px;
+    height: 15px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    border-left: 2px solid green;
+    line-height: 15px
+    
+}
+.tit3{
+    width: 200px;
+    height: 15px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    border-left: 2px solid orange;
+    line-height: 15px
+    
+}
+.con{
+    width: 323px;
+    height: 30px;
+    position: absolute;
+    bottom: 12px;
+    font-size: 11px;
+    left: 12px;
+}
+
+.ad{
+    width: 340px;
+    height: 91px;
+    box-shadow: 0 0 16px #aaa;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+.design{
+    width: 100%;
+    height: 100%;
+}
+.per{
+    width: 340px;
+    height: 163px;
+    box-shadow: 0 0 16px #aaa;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 21px;
+    border-radius: 10px;
+    position: relative;
+}
+.per-pic1{
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    left: 11px;
+    bottom: 16px;
+}
+.per-pic2{
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    left: 119px;
+    bottom: 16px;
+}
+.per-pic3{
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    left: 228px;
+    bottom: 16px;
+}
+.button{
+    width: 338px;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 21px;
+    position: relative;
+}
+.edi{
+    width: 165px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 0 0 16px #aaa;
+    border-radius: 50px;
+}
+.bianji-pic{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 42px;
+    top: 15px;
+}
+.share{
+    width: 165px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: rgb(84, 156, 223);
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 0 0 16px #aaa;
+    border-radius: 50px;
+}

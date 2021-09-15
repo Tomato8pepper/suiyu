@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .page{
+            margin-top: 100px;
+            width: 100%;
+            height: 200px;
+            background-color: chartreuse;
+            /* 使容器成为bfc容器 */
+            overflow: hidden;
+            /* overflow: scroll; */
+            /* display: inline-block; */
+            /* display: table-cell; */
+            /* display: flex; */
+            /* position: absolute; */
+            /* position: fixed; */
+            /* float: left; */
+        }
+        .header{
+            margin-top: 50px;
+            width: 100%;
+            height: 100px;
+            background-color: chocolate;    
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- # 浮动 float
+    浮动会让元素脱离文档流，间接导致父容器高度坍塌
+
+    # 清除float带来的负面影响
+    1.在浮动元素后面添加一个空容器<div style="clear: left;"></div>
+    2.给浮动元素父容器添加一个伪类
+        .claerfix::after{
+            content:'';
+            clear: left;
+            display: table;
+        }
+
+    3.BFC -- Block Formatting Context
+        解决元素脱离文档流带来的负面影响,margin重叠问题
+        bfc的触发方式 -->
+
+
+    <div class="page">
+        <div class="header"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+
+}
+.page{
+    padding: 50px 20px;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.container{
+    width: 335px;
+    
+}
+.content{
+    box-sizing: border-box;
+    width: 335px;
+    padding: 20px;
+    /* margin-top: 20px; */
+    /* 向右，向下，模糊程度，阴影半径，颜色 */
+    box-shadow: 0 0 16px #aaa;    
+    border-radius: 10px;
+    /* display: inline-block; */
+    float: left;
+}
+.content:last-child{
+    margin-right: 0;
+}
+.content-title{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: serif '微软雅黑';
+}
+.content-desc{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.content .img{
+    width: 295px;
+    height: 295px;
+    margin:0 auto;           /* 实现x轴上的居中 */
+}
+.img img{
+    width: 100%;
+}

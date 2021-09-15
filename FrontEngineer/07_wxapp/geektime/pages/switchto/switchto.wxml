@@ -1,0 +1,4 @@
+<nav-bar></nav-bar>
+<view class="arrow">
+    <image bindtap="switchto" src="../image/arrow.png"/>
+</view>

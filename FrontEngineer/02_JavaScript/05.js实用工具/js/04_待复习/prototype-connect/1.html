@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+            原型链：在原型上再加上一个原型... ，访问顺序依照这个链的顺序进行。
+            原型链的增、删、改、查
+                查： 由近到远
+                改： 原型自己改
+                增： 原型自己增
+                删： 原型delete自己删，但是
+
+
+            实例对象是无法修改构造函数原型上的属性，除非使用引用类型的方式
+
+        */
+
+
+
+
+        //构造函数实例化出来的实例可以同过__proto__找到构造函数的原型
+        function Person() {
+            
+        }
+        var person = new Person()
+        console.log(person)
+        console.log(Person.prototype)
+
+        Grand.prototype.name = 'wu'
+        function Grand() {
+            
+        }
+        let grand = new Grand()
+
+        Father.prototype = grand
+        function Father() {
+            this.name = 'mr'
+            this.fortune = {
+                card1: 'vasa'
+            }
+            this.num = 100
+        }
+        let father = new Father()
+
+        Son.prototype = father
+        function Son(params) {
+            this.hobby = 'read'
+        }
+        let son = new Son ()
+
+        son.fortune.card2 = 'master'
+        console.log(father.num++)
+        console.log(son.num)
+
+        console.log(father.name)
+        console.log(son.name)
+        console.log(son.hobby)
+
+
+
+
+        // console.log(son.toString())
+        console.log(Object.prototype)
+    </script>
+</body>
+</html>
