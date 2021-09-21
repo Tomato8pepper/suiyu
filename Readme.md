@@ -74,9 +74,6 @@ https://www.runoob.com/go/go-arrays.html
     
 
 
-### 面试：
-    github + leetcode + 掘金写文章 + 商业项目 + 原码分析 + reading
-    三元：https://sanyuan0704.github.io/
 
 
 ### github仓库上传说明
