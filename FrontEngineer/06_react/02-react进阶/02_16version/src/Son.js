@@ -34,6 +34,7 @@ class Son extends Component {
         this.state = {
             num: 1,
         }
+        this.testThis = this.testThis.bind(this)
     }
     testThis() {
         //3.this指向不同需要处理

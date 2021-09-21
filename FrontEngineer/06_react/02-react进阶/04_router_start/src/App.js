@@ -52,14 +52,15 @@ class App extends Component {
         <h1>头部</h1>
         <Router>
           <NavLink to='/header/man' activeStyle={{ color: 'blue' }}>man样式</NavLink>
+          <span>######</span>
           <NavLink to='/header/women' activeClassName='selected'>women类名</NavLink>
           <React.Fragment>
             <Switch>
               {/* 模糊匹配,  exact精确匹配 */}
-              <Route path="/" exact component={Home} />
+              <Route path="/mian" exact component={Home} />
               <Route path="/header" component={Home} />
               {/* 重定向 */}
-              <Redirect to="/header" />
+              {/* <Redirect to="/header" /> */}
             </Switch>
           </React.Fragment>
         </Router>

@@ -12,8 +12,8 @@ class App extends Component {
     this.changeHander = this.changeHander.bind(this)
   }
   changeHander (e) {
-    console.log(e);
-    console.log(this)
+    console.log('kk1', e);
+    console.log('kk2', this)
     console.log('onchange触发了');
     // this.state.name = e.target.value
     // this.setState({})

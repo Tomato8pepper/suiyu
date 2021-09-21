@@ -6,6 +6,7 @@ class User extends Component {
   componentDidMount () {
     // /user/:id
     console.log(this.props);
+    
   }
   goBack () {
     this.props.history.goBack();    // goForward() 

@@ -178,5 +178,5 @@ module.exports = {
                 message: '请求出问题了'
             }
         }
-    }
+    },
 }

@@ -16,7 +16,7 @@ class Son extends Component {
         this.state = {}
     }
     render () {
-        
+        console.log('kkprops', this.props)
         console.log('ll1', this.props.children instanceof Object);
 
         // 改变name不会改变this.props.name 值类型

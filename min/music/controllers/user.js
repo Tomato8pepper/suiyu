@@ -9,6 +9,7 @@ module.exports = {
     },
     checkUsername: async (ctx, next) => {
         //处理接受请求之类的繁琐事务，唯独不crud
+        console.log('===========', ctx.request.body);
         let { username } = ctx.request.body
         //查询数据库中是否存在该用户名
         let users = await userModel.findUserByUsername(username)
