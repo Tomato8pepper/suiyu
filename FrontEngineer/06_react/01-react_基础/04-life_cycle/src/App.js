@@ -32,7 +32,7 @@ class App extends Component {
        console.log('ll1', preProps);
        console.log('ll2', this.props);
     }
-    console.log('3:componentDidUpdate加载了');
+    console.log('4  :componentDidUpdate加载了');
   }
 
   render () {
