@@ -9,13 +9,14 @@
 <body>
     <input type="text" autofocus/>
     <script>
-        // 一定时间内发送请求
+        // 规定在一个单位时间内，只能触发一次函数。如果这个单位时间内触发多次函数，只有一次生效。
         function throttle () {
             let preTime = Date.now()
             return function () {
                 let nowTime = Date.now()
-                if (nowTime - preTime > 10000) {
+                if (nowTime - preTime > 2000) {
                     console.log('请求发出去了');
+                    preTime = nowTime;
                 }
             }
         }

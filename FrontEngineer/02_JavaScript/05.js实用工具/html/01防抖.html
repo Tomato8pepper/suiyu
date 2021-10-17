@@ -9,7 +9,7 @@
 <body>
     <input type='text' class="box" autofocus/>
     <script>
-        
+        // 函数防抖就是法师发技能的时候要读条，技能读条没完再按技能就会重新读条。
         function debounce () {
             let timer
             return function () {
@@ -20,6 +20,7 @@
             }
         }
         var box = document.querySelector('.box')
+        // debounce页面刷新只执行一次
         box.addEventListener('keydown', debounce())
     </script>
 </body>
