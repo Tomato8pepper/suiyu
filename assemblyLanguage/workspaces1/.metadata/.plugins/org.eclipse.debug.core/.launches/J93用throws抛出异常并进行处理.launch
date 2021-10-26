@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Java程序设计基础/src/Exception/J93用throws抛出异常并进行处理.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Exception.J93用throws抛出异常并进行处理"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Java程序设计基础"/>
+</launchConfiguration>

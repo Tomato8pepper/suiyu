@@ -1,0 +1,6 @@
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\计算π的近似值\bin\Debug\计算π的近似值.exe.config
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\计算π的近似值\bin\Debug\计算π的近似值.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\计算π的近似值\bin\Debug\计算π的近似值.pdb
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\计算π的近似值\obj\Debug\计算π的近似值.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\计算π的近似值\obj\Debug\计算π的近似值.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\计算π的近似值\obj\Debug\计算π的近似值.pdb

@@ -1,0 +1,6 @@
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\计算器\bin\Debug\计算器.exe.config
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\计算器\bin\Debug\计算器.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\计算器\bin\Debug\计算器.pdb
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\计算器\obj\Debug\计算器.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\计算器\obj\Debug\计算器.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\计算器\obj\Debug\计算器.pdb

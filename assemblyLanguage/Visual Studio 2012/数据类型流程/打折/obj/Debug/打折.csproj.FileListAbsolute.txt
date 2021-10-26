@@ -1,0 +1,6 @@
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\打折\bin\Debug\打折.exe.config
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\打折\bin\Debug\打折.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\打折\bin\Debug\打折.pdb
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\打折\obj\Debug\打折.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\打折\obj\Debug\打折.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\打折\obj\Debug\打折.pdb

@@ -1,0 +1,5 @@
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\example2_1\bin\Debug\example2_1.exe.config
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\example2_1\bin\Debug\example2_1.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\example2_1\bin\Debug\example2_1.pdb
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\example2_1\obj\Debug\example2_1.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\example2_1\obj\Debug\example2_1.pdb

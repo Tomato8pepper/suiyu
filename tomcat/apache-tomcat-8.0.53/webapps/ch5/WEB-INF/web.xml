@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+    <servlet>
+        <servlet-name>hello</servlet-name>
+        <servlet-class>myservlet.control.Example5_1_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>/lookHello</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>computeBill</servlet-name>
+        <servlet-class>myservlet.control.Example5_2_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>computeBill</servlet-name>
+        <url-pattern>/computeBill</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>xieyuanlong</servlet-name>
+        <servlet-class>myservlet.control.English</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xieyuanlong</servlet-name>
+        <url-pattern>/xieyuanlong</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>minglong</servlet-name>
+        <servlet-class>myservlet.control.Zhuanfa</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>minglong</servlet-name>
+        <url-pattern>/minglong</url-pattern>
+    </servlet-mapping>
+</web-app>

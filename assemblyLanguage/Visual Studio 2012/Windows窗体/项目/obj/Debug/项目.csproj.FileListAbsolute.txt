@@ -1,0 +1,17 @@
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\bin\Debug\项目.exe.config
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\bin\Debug\项目.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\bin\Debug\项目.pdb
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.Form1.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.Properties.Resources.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.csproj.GenerateResource.Cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.pdb
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.Form2.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.Form3.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.Form4.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.Form5.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.Forma.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.Formb.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.FormMenu.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\项目\obj\Debug\项目.Formc.resources

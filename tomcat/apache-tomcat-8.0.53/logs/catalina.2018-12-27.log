@@ -1,0 +1,122 @@
+27-Dec-2018 00:54:40.826 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+27-Dec-2018 00:54:40.831 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_92\jre
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-8.0.53
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-8.0.53
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\apache-tomcat-8.0.53\conf\logging.properties
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\apache-tomcat-8.0.53
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-8.0.53
+27-Dec-2018 00:54:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\apache-tomcat-8.0.53\temp
+27-Dec-2018 00:54:40.850 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.17 using APR version 1.6.3.
+27-Dec-2018 00:54:40.850 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Dec-2018 00:54:41.664 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2o  27 Mar 2018)
+27-Dec-2018 00:54:41.812 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+27-Dec-2018 00:54:41.833 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+27-Dec-2018 00:54:41.833 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1399 ms
+27-Dec-2018 00:54:41.866 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-Dec-2018 00:54:41.876 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+27-Dec-2018 00:54:41.896 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch1
+27-Dec-2018 00:54:42.399 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [263] milliseconds.
+27-Dec-2018 00:54:42.416 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch1 has finished in 520 ms
+27-Dec-2018 00:54:42.416 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch10
+27-Dec-2018 00:54:42.463 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch10 has finished in 47 ms
+27-Dec-2018 00:54:42.463 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch13
+27-Dec-2018 00:54:42.535 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch13 has finished in 72 ms
+27-Dec-2018 00:54:42.535 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch2
+27-Dec-2018 00:54:42.571 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch2 has finished in 36 ms
+27-Dec-2018 00:54:42.571 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch3
+27-Dec-2018 00:54:42.612 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch3 has finished in 41 ms
+27-Dec-2018 00:54:42.612 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch4
+27-Dec-2018 00:54:42.652 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch4 has finished in 40 ms
+27-Dec-2018 00:54:42.652 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch5
+27-Dec-2018 00:54:42.708 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch5 has finished in 46 ms
+27-Dec-2018 00:54:42.708 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch6
+27-Dec-2018 00:54:42.771 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch6 has finished in 63 ms
+27-Dec-2018 00:54:42.771 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch666
+27-Dec-2018 00:54:42.812 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch666 has finished in 41 ms
+27-Dec-2018 00:54:42.812 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch7
+27-Dec-2018 00:54:42.866 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch7 has finished in 54 ms
+27-Dec-2018 00:54:42.866 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\docs
+27-Dec-2018 00:54:42.878 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\docs has finished in 12 ms
+27-Dec-2018 00:54:42.888 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\examples
+27-Dec-2018 00:54:43.206 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\examples has finished in 318 ms
+27-Dec-2018 00:54:43.206 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\host-manager
+27-Dec-2018 00:54:43.270 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\host-manager has finished in 64 ms
+27-Dec-2018 00:54:43.270 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\manager
+27-Dec-2018 00:54:43.310 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\manager has finished in 40 ms
+27-Dec-2018 00:54:43.313 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ROOT
+27-Dec-2018 00:54:43.345 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ROOT has finished in 35 ms
+27-Dec-2018 00:54:43.350 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+27-Dec-2018 00:54:43.368 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+27-Dec-2018 00:54:43.375 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1534 ms
+27-Dec-2018 21:08:23.991 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+27-Dec-2018 21:08:23.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+27-Dec-2018 21:08:23.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+27-Dec-2018 21:08:23.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Dec-2018 21:08:23.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Dec-2018 21:08:23.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Dec-2018 21:08:23.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_92\jre
+27-Dec-2018 21:08:23.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+27-Dec-2018 21:08:23.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Dec-2018 21:08:23.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-8.0.53
+27-Dec-2018 21:08:23.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-8.0.53
+27-Dec-2018 21:08:23.999 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\apache-tomcat-8.0.53\conf\logging.properties
+27-Dec-2018 21:08:23.999 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Dec-2018 21:08:23.999 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Dec-2018 21:08:23.999 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Dec-2018 21:08:23.999 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Dec-2018 21:08:24.000 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\apache-tomcat-8.0.53
+27-Dec-2018 21:08:24.000 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-8.0.53
+27-Dec-2018 21:08:24.001 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\apache-tomcat-8.0.53\temp
+27-Dec-2018 21:08:24.002 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.17 using APR version 1.6.3.
+27-Dec-2018 21:08:24.002 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Dec-2018 21:08:24.788 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2o  27 Mar 2018)
+27-Dec-2018 21:08:24.959 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+27-Dec-2018 21:08:24.979 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+27-Dec-2018 21:08:24.983 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1435 ms
+27-Dec-2018 21:08:25.026 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-Dec-2018 21:08:25.027 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+27-Dec-2018 21:08:25.044 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch1
+27-Dec-2018 21:08:25.670 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [344] milliseconds.
+27-Dec-2018 21:08:25.688 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch1 has finished in 643 ms
+27-Dec-2018 21:08:25.688 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch10
+27-Dec-2018 21:08:25.744 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch10 has finished in 56 ms
+27-Dec-2018 21:08:25.745 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch13
+27-Dec-2018 21:08:25.841 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch13 has finished in 96 ms
+27-Dec-2018 21:08:25.841 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch2
+27-Dec-2018 21:08:25.906 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch2 has finished in 65 ms
+27-Dec-2018 21:08:25.907 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch3
+27-Dec-2018 21:08:25.949 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch3 has finished in 42 ms
+27-Dec-2018 21:08:25.949 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch4
+27-Dec-2018 21:08:25.996 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch4 has finished in 47 ms
+27-Dec-2018 21:08:25.997 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch5
+27-Dec-2018 21:08:26.064 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch5 has finished in 67 ms
+27-Dec-2018 21:08:26.064 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch6
+27-Dec-2018 21:08:26.144 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch6 has finished in 80 ms
+27-Dec-2018 21:08:26.144 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch666
+27-Dec-2018 21:08:26.185 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch666 has finished in 40 ms
+27-Dec-2018 21:08:26.185 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ch7
+27-Dec-2018 21:08:26.245 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ch7 has finished in 60 ms
+27-Dec-2018 21:08:26.246 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\docs
+27-Dec-2018 21:08:26.329 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\docs has finished in 82 ms
+27-Dec-2018 21:08:26.329 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\examples
+27-Dec-2018 21:08:26.762 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\examples has finished in 433 ms
+27-Dec-2018 21:08:26.763 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\host-manager
+27-Dec-2018 21:08:26.815 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\host-manager has finished in 52 ms
+27-Dec-2018 21:08:26.815 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\manager
+27-Dec-2018 21:08:26.854 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\manager has finished in 39 ms
+27-Dec-2018 21:08:26.855 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-8.0.53\webapps\ROOT
+27-Dec-2018 21:08:26.889 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-8.0.53\webapps\ROOT has finished in 34 ms
+27-Dec-2018 21:08:26.893 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+27-Dec-2018 21:08:26.909 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+27-Dec-2018 21:08:26.918 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1935 ms

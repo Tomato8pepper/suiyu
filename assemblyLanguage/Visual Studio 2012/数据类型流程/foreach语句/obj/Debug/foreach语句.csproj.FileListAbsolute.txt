@@ -1,0 +1,5 @@
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\foreach语句\bin\Debug\foreach语句.exe.config
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\foreach语句\bin\Debug\foreach语句.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\foreach语句\bin\Debug\foreach语句.pdb
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\foreach语句\obj\Debug\foreach语句.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\foreach语句\obj\Debug\foreach语句.pdb

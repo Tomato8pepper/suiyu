@@ -1,0 +1,6 @@
+D:\BIANXHENG\Visual Studio 2012\进阶编程\结构体\bin\Debug\结构体.exe.config
+D:\BIANXHENG\Visual Studio 2012\进阶编程\结构体\bin\Debug\结构体.exe
+D:\BIANXHENG\Visual Studio 2012\进阶编程\结构体\bin\Debug\结构体.pdb
+D:\BIANXHENG\Visual Studio 2012\进阶编程\结构体\obj\Debug\结构体.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\进阶编程\结构体\obj\Debug\结构体.exe
+D:\BIANXHENG\Visual Studio 2012\进阶编程\结构体\obj\Debug\结构体.pdb

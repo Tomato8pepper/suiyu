@@ -1,0 +1,5 @@
+127.0.0.1 - - [06/Dec/2018:20:22:32 +0800] "GET / HTTP/1.1" 404 1076
+127.0.0.1 - - [06/Dec/2018:20:22:34 +0800] "GET /JSPExample1/dengcha.jsp HTTP/1.1" 200 349
+127.0.0.1 - - [06/Dec/2018:20:23:00 +0800] "POST /JSPExample1/dengcha HTTP/1.1" 200 322
+127.0.0.1 - - [06/Dec/2018:20:23:20 +0800] "GET /JSPExample1/dengbi.jsp HTTP/1.1" 200 347
+127.0.0.1 - - [06/Dec/2018:20:23:25 +0800] "GET /JSPExample1/dengbi?firstItem=2&var=2&number=2 HTTP/1.1" 200 322

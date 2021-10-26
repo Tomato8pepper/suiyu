@@ -1,0 +1,13 @@
+<%@page contentType="text/html;charset=gb2312"%>
+<%@page import="tom.jiafei.Car"%>
+<jsp:useBean id="c" class="tom.jiafei.Car1" scope="session"  />
+<html><body bgcolor=yellow>
+<font size=2>
+      <form  action="" method="post">
+          汽车牌号:<input   type=text name="number">
+          <br>汽车名字:<input type=text name="name">
+          <br>汽车生产日期:<input type=text name="madeTime">
+          <input type=submit value="提交" name="submit">
+      </form>
+      <a href="show.jsp">访问show.jsp察看有关信息。<br>
+<jsp:setProperty name="c" property="*"/>

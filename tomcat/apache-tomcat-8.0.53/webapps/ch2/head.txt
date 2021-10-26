@@ -1,0 +1,9 @@
+<html>
+  <table cellSpacing="60" width="50%" align="center" border="2">
+     <tr valign="bottom">
+        <td><a href=""><font size=3>one.jsp</font></a></td>
+        <th><a href=""><font size=3>two.jsp</font></a></td>
+        <td><a href=""><font size=3>three.jsp</font></a></td>
+     </tr>
+  </table>
+</html>

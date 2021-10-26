@@ -1,0 +1,3 @@
+D:\BIANXHENG\Visual Studio 2012\进阶编程\student\bin\Debug\student.exe.config
+D:\BIANXHENG\Visual Studio 2012\进阶编程\student\obj\Debug\student.exe
+D:\BIANXHENG\Visual Studio 2012\进阶编程\student\obj\Debug\student.pdb

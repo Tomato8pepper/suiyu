@@ -1,0 +1,7 @@
+127.0.0.1 - - [15/Nov/2018:13:36:49 +0800] "GET /ch2/inputName.jsp HTTP/1.1" 500 2475
+127.0.0.1 - - [15/Nov/2018:13:37:16 +0800] "GET /ch2/inputName.jsp HTTP/1.1" 200 239
+127.0.0.1 - - [15/Nov/2018:13:37:30 +0800] "GET /ch2/people.jsp?n=&submit=%CC%E1%BD%BB HTTP/1.1" 404 1090
+127.0.0.1 - - [15/Nov/2018:13:37:31 +0800] "GET /ch2/people.jsp?n=&submit=%CC%E1%BD%BB HTTP/1.1" 404 1090
+127.0.0.1 - - [15/Nov/2018:13:37:33 +0800] "GET /ch2/inputName.jsp HTTP/1.1" 200 239
+127.0.0.1 - - [15/Nov/2018:13:38:28 +0800] "GET /ch2/inputName.jsp HTTP/1.1" 200 254
+127.0.0.1 - - [15/Nov/2018:13:39:16 +0800] "GET /ch2/inputName.jsp HTTP/1.1" 200 271

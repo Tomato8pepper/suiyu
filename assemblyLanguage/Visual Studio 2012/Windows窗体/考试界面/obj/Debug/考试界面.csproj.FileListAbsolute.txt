@@ -1,0 +1,8 @@
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\考试界面\bin\Debug\考试界面.exe.config
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\考试界面\bin\Debug\考试界面.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\考试界面\bin\Debug\考试界面.pdb
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\考试界面\obj\Debug\考试界面.Form1.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\考试界面\obj\Debug\考试界面.Properties.Resources.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\考试界面\obj\Debug\考试界面.csproj.GenerateResource.Cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\考试界面\obj\Debug\考试界面.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\考试界面\obj\Debug\考试界面.pdb

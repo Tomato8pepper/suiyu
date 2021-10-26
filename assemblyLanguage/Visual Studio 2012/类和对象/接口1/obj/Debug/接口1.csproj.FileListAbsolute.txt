@@ -1,0 +1,5 @@
+D:\BIANXHENG\Visual Studio 2012\类和对象\接口1\bin\Debug\接口1.exe.config
+D:\BIANXHENG\Visual Studio 2012\类和对象\接口1\bin\Debug\接口1.exe
+D:\BIANXHENG\Visual Studio 2012\类和对象\接口1\bin\Debug\接口1.pdb
+D:\BIANXHENG\Visual Studio 2012\类和对象\接口1\obj\Debug\接口1.exe
+D:\BIANXHENG\Visual Studio 2012\类和对象\接口1\obj\Debug\接口1.pdb

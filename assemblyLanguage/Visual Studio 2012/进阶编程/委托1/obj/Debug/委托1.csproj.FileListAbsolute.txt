@@ -1,0 +1,6 @@
+D:\BIANXHENG\Visual Studio 2012\进阶编程\委托1\bin\Debug\委托1.exe.config
+D:\BIANXHENG\Visual Studio 2012\进阶编程\委托1\bin\Debug\委托1.exe
+D:\BIANXHENG\Visual Studio 2012\进阶编程\委托1\bin\Debug\委托1.pdb
+D:\BIANXHENG\Visual Studio 2012\进阶编程\委托1\obj\Debug\委托1.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\进阶编程\委托1\obj\Debug\委托1.exe
+D:\BIANXHENG\Visual Studio 2012\进阶编程\委托1\obj\Debug\委托1.pdb

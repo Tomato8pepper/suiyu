@@ -1,0 +1,6 @@
+D:\BIANXHENG\Visual Studio 2012\进阶编程\项目实训3_1\obj\Debug\项目实训3_1.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\进阶编程\项目实训3_1\bin\Debug\项目实训3_1.exe.config
+D:\BIANXHENG\Visual Studio 2012\进阶编程\项目实训3_1\bin\Debug\项目实训3_1.exe
+D:\BIANXHENG\Visual Studio 2012\进阶编程\项目实训3_1\bin\Debug\项目实训3_1.pdb
+D:\BIANXHENG\Visual Studio 2012\进阶编程\项目实训3_1\obj\Debug\项目实训3_1.exe
+D:\BIANXHENG\Visual Studio 2012\进阶编程\项目实训3_1\obj\Debug\项目实训3_1.pdb

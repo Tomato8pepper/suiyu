@@ -1,0 +1,23 @@
+INDEX VERSION 1.130
+D:\BIANXHENG\workspaces1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1951693918.index
+\MVCMYSQL\src
+D:\BIANXHENG\workspaces1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1398271880.index
+\JSPCosmeticweb\src
+D:\BIANXHENG\workspaces1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4111531209.index
+\JSPMakeFriends\src
+D:\BIANXHENG\workspaces1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2800736406.index
+\JSPCosmeticweb\src
+D:\BIANXHENG\workspaces1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2213717318.index
+\MVCMYSQL\src
+D:\BIANXHENG\workspaces1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\295145141.index
+\Cosmeticweb\src
+D:\BIANXHENG\workspaces1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2062513446.index
+\JSPMakeFriends\src
+D:\BIANXHENG\workspaces1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4149830093.index
+\xiaoneiwnag\src
+D:\BIANXHENG\workspaces1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3415211853.index
+\JSPExample1\src
+D:\BIANXHENG\workspaces1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1846606712.index
+\JSPExample1\src
+D:\BIANXHENG\workspaces1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2826948260.index
+\Cosmeticweb\src

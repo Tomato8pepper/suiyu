@@ -1,0 +1,5 @@
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\成绩百分制\bin\Debug\成绩百分制.exe.config
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\成绩百分制\bin\Debug\成绩百分制.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\成绩百分制\bin\Debug\成绩百分制.pdb
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\成绩百分制\obj\Debug\成绩百分制.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\成绩百分制\obj\Debug\成绩百分制.pdb

@@ -1,0 +1,37 @@
+20-Aug-2020 14:27:31.660 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+20-Aug-2020 14:27:31.694 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+20-Aug-2020 14:27:31.695 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+20-Aug-2020 14:27:31.695 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Aug-2020 14:27:31.698 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Aug-2020 14:27:31.698 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Aug-2020 14:27:31.698 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk-9.0.4
+20-Aug-2020 14:27:31.698 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.4+11
+20-Aug-2020 14:27:31.699 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Aug-2020 14:27:31.699 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-9.0.13
+20-Aug-2020 14:27:31.700 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-9.0.13
+20-Aug-2020 14:27:31.700 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Aug-2020 14:27:31.700 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Aug-2020 14:27:31.700 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Aug-2020 14:27:31.700 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\apache-tomcat-9.0.13\conf\logging.properties
+20-Aug-2020 14:27:31.700 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Aug-2020 14:27:31.714 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Aug-2020 14:27:31.717 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Aug-2020 14:27:31.724 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Aug-2020 14:27:31.725 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\apache-tomcat-9.0.13
+20-Aug-2020 14:27:31.727 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-9.0.13
+20-Aug-2020 14:27:31.728 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\apache-tomcat-9.0.13\temp
+20-Aug-2020 14:27:31.729 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+20-Aug-2020 14:27:31.730 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20-Aug-2020 14:27:31.731 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Aug-2020 14:27:31.773 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+20-Aug-2020 14:27:31.945 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 14:27:32.823 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 14:27:32.848 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 14:27:32.861 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 14:27:32.862 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3556 ms
+20-Aug-2020 14:27:32.992 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Aug-2020 14:27:33.008 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+20-Aug-2020 14:27:33.047 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 14:27:33.075 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 14:27:33.082 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 224 ms
+20-Aug-2020 14:27:38.758 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]

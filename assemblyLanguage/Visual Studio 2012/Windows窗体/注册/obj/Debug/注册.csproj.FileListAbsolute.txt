@@ -1,0 +1,10 @@
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\注册\obj\Debug\注册.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\注册\obj\Debug\注册.Form1.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\注册\obj\Debug\注册.Form2.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\注册\obj\Debug\注册.Properties.Resources.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\注册\obj\Debug\注册.csproj.GenerateResource.Cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\注册\bin\Debug\注册.exe.config
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\注册\bin\Debug\注册.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\注册\bin\Debug\注册.pdb
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\注册\obj\Debug\注册.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\注册\obj\Debug\注册.pdb

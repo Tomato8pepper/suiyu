@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Java程序设计基础/src/swing/J137框架窗口中加文本编辑滚动窗格.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="swing.J137框架窗口中加文本编辑滚动窗格"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Java程序设计基础"/>
+</launchConfiguration>

@@ -1,0 +1,5 @@
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\goto语句\bin\Debug\goto语句.exe.config
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\goto语句\bin\Debug\goto语句.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\goto语句\bin\Debug\goto语句.pdb
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\goto语句\obj\Debug\goto语句.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\goto语句\obj\Debug\goto语句.pdb

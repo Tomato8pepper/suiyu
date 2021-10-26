@@ -1,0 +1,5 @@
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\成绩百分之switch\bin\Debug\成绩百分之switch.exe.config
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\成绩百分之switch\bin\Debug\成绩百分之switch.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\成绩百分之switch\bin\Debug\成绩百分之switch.pdb
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\成绩百分之switch\obj\Debug\成绩百分之switch.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\成绩百分之switch\obj\Debug\成绩百分之switch.pdb

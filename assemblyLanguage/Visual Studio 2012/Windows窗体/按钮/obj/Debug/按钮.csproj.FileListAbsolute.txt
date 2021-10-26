@@ -1,0 +1,9 @@
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\按钮\bin\Debug\按钮.exe.config
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\按钮\bin\Debug\按钮.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\按钮\bin\Debug\按钮.pdb
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\按钮\obj\Debug\按钮.Form1.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\按钮\obj\Debug\按钮.Properties.Resources.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\按钮\obj\Debug\按钮.csproj.GenerateResource.Cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\按钮\obj\Debug\按钮.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\按钮\obj\Debug\按钮.pdb
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\按钮\obj\Debug\按钮.csprojResolveAssemblyReference.cache

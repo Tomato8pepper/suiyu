@@ -1,0 +1,5 @@
+D:\BIANXHENG\Visual Studio 2012\进阶编程\枚举\bin\Debug\枚举.exe.config
+D:\BIANXHENG\Visual Studio 2012\进阶编程\枚举\bin\Debug\枚举.exe
+D:\BIANXHENG\Visual Studio 2012\进阶编程\枚举\bin\Debug\枚举.pdb
+D:\BIANXHENG\Visual Studio 2012\进阶编程\枚举\obj\Debug\枚举.exe
+D:\BIANXHENG\Visual Studio 2012\进阶编程\枚举\obj\Debug\枚举.pdb

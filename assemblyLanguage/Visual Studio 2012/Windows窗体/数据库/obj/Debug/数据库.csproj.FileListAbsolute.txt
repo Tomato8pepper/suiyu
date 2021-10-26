@@ -1,0 +1,11 @@
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\数据库\bin\Debug\数据库.exe.config
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\数据库\bin\Debug\数据库.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\数据库\bin\Debug\数据库.pdb
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\数据库\obj\Debug\数据库.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\数据库\obj\Debug\数据库.Form1.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\数据库\obj\Debug\数据库.Properties.Resources.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\数据库\obj\Debug\数据库.csproj.GenerateResource.Cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\数据库\obj\Debug\数据库.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\数据库\obj\Debug\数据库.pdb
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\数据库\obj\Debug\数据库.Frmshow.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\数据库\obj\Debug\数据库.Frmbook.resources

@@ -1,0 +1,10 @@
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\标签按钮文本框\bin\Debug\标签按钮文本框.exe.config
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\标签按钮文本框\obj\Debug\标签按钮文本框.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\标签按钮文本框\obj\Debug\标签按钮文本框.Form1.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\标签按钮文本框\obj\Debug\标签按钮文本框.Properties.Resources.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\标签按钮文本框\obj\Debug\标签按钮文本框.csproj.GenerateResource.Cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\标签按钮文本框\bin\Debug\标签按钮文本框.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\标签按钮文本框\bin\Debug\标签按钮文本框.pdb
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\标签按钮文本框\obj\Debug\标签按钮文本框.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\标签按钮文本框\obj\Debug\标签按钮文本框.pdb
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\标签按钮文本框\obj\Debug\标签按钮文本框.Form2.resources

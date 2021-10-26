@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+    <servlet>
+        <servlet-name>queryByConditionServlet</servlet-name>
+        <servlet-class>myservlet.control.Example7_2_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>queryByConditionServlet</servlet-name>
+        <url-pattern>/queryByConditionServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>mingguo</servlet-name>
+        <servlet-class>myservlet.control.Mingguo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>mingguo</servlet-name>
+        <url-pattern>/mingguo</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>rumeng</servlet-name>
+        <servlet-class>myservlet.control.Rumeng</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>rumeng</servlet-name>
+        <url-pattern>/rumeng</url-pattern>
+    </servlet-mapping>
+</web-app>

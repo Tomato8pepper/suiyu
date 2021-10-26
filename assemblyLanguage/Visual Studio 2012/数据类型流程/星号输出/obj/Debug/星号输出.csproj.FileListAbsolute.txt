@@ -1,0 +1,6 @@
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\星号输出\bin\Debug\星号输出.exe.config
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\星号输出\bin\Debug\星号输出.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\星号输出\bin\Debug\星号输出.pdb
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\星号输出\obj\Debug\星号输出.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\星号输出\obj\Debug\星号输出.exe
+D:\BIANXHENG\Visual Studio 2012\数据类型流程\星号输出\obj\Debug\星号输出.pdb

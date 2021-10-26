@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: example3_1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ZHAMIN~1\AppData\Local\Temp\RSP874C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/example3_1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\BIANXHENG\c³ÌÐò\example3_1.cpp"
+]
+Creating command line "cl.exe @C:\Users\ZHAMIN~1\AppData\Local\Temp\RSP874C.tmp" 
+Creating temporary file "C:\Users\ZHAMIN~1\AppData\Local\Temp\RSP874D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/example3_1.pdb" /debug /machine:I386 /out:"Debug/example3_1.exe" /pdbtype:sept 
+".\Debug\example3_1.obj"
+]
+Creating command line "link.exe @C:\Users\ZHAMIN~1\AppData\Local\Temp\RSP874D.tmp"
+<h3>Output Window</h3>
+Compiling...
+example3_1.cpp
+D:\BIANXHENG\c³ÌÐò\example3_1.cpp(34) : error C2350: 'Student::avg' is not a static member
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+example3_1.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

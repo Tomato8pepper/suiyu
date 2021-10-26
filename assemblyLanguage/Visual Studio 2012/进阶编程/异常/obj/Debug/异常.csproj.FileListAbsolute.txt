@@ -1,0 +1,6 @@
+D:\BIANXHENG\Visual Studio 2012\进阶编程\异常\bin\Debug\异常.exe.config
+D:\BIANXHENG\Visual Studio 2012\进阶编程\异常\bin\Debug\异常.exe
+D:\BIANXHENG\Visual Studio 2012\进阶编程\异常\bin\Debug\异常.pdb
+D:\BIANXHENG\Visual Studio 2012\进阶编程\异常\obj\Debug\异常.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\进阶编程\异常\obj\Debug\异常.exe
+D:\BIANXHENG\Visual Studio 2012\进阶编程\异常\obj\Debug\异常.pdb

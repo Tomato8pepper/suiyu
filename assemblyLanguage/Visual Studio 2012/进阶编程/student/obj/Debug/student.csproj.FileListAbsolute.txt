@@ -1,0 +1,6 @@
+D:\BIANXHENG\Visual Studio 2012\进阶编程\student\bin\Debug\student.exe.config
+D:\BIANXHENG\Visual Studio 2012\进阶编程\student\bin\Debug\student.exe
+D:\BIANXHENG\Visual Studio 2012\进阶编程\student\bin\Debug\student.pdb
+D:\BIANXHENG\Visual Studio 2012\进阶编程\student\obj\Debug\student.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\进阶编程\student\obj\Debug\student.exe
+D:\BIANXHENG\Visual Studio 2012\进阶编程\student\obj\Debug\student.pdb

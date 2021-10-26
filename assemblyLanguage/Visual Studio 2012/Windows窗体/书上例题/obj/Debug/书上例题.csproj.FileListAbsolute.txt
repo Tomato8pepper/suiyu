@@ -1,0 +1,13 @@
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\书上例题\bin\Debug\书上例题.exe.config
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\书上例题\bin\Debug\书上例题.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\书上例题\bin\Debug\书上例题.pdb
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\书上例题\obj\Debug\书上例题.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\书上例题\obj\Debug\书上例题.Form1.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\书上例题\obj\Debug\书上例题.Properties.Resources.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\书上例题\obj\Debug\书上例题.csproj.GenerateResource.Cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\书上例题\obj\Debug\书上例题.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\书上例题\obj\Debug\书上例题.pdb
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\书上例题\obj\Debug\书上例题.Form2.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\书上例题\obj\Debug\书上例题.Form3.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\书上例题\obj\Debug\书上例题.Form4.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\书上例题\obj\Debug\书上例题.Form5.resources

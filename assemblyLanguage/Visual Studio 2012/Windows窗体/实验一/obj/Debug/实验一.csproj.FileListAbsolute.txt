@@ -1,0 +1,9 @@
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\实验一\bin\Debug\实验一.exe.config
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\实验一\bin\Debug\实验一.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\实验一\bin\Debug\实验一.pdb
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\实验一\obj\Debug\实验一.csprojResolveAssemblyReference.cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\实验一\obj\Debug\实验一.Form1.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\实验一\obj\Debug\实验一.Properties.Resources.resources
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\实验一\obj\Debug\实验一.csproj.GenerateResource.Cache
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\实验一\obj\Debug\实验一.exe
+D:\BIANXHENG\Visual Studio 2012\Windows窗体\实验一\obj\Debug\实验一.pdb
