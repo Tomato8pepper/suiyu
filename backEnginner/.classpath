@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="advance-code/01_API/src"/>
+	<classpathentry kind="src" path="advance-code/02_CollectionAndReflect/src"/>
+	<classpathentry kind="src" path="advance-code/03_ListAndSet/src"/>
+	<classpathentry kind="src" path="advance-code/04_Map/src"/>
+	<classpathentry kind="src" path="advance-code/05_ExceptionAndThread/src"/>
+	<classpathentry kind="src" path="advance-code/06_Thread/src"/>
+	<classpathentry kind="src" path="advance-code/07_ThreadAndLambda/src"/>
+	<classpathentry kind="src" path="advance-code/08_FileAndRecursion/src"/>
+	<classpathentry kind="src" path="advance-code/09_IOAndProperties/src"/>
+	<classpathentry kind="src" path="advance-code/10_IO/src"/>
+	<classpathentry kind="src" path="advance-code/11_Net/src"/>
+	<classpathentry kind="src" path="advance-code/12_FunctionalInterface/src"/>
+	<classpathentry kind="src" path="advance-code/13_StreamAndMethodReference/src"/>
+	<classpathentry kind="src" path="basic-code/day04-code/src"/>
+	<classpathentry kind="src" path="basic-code/day05-code/src"/>
+	<classpathentry kind="src" path="basic-code/day06-code/src"/>
+	<classpathentry kind="src" path="basic-code/day07-code/src"/>
+	<classpathentry kind="src" path="basic-code/day08-code/src"/>
+	<classpathentry kind="src" path="basic-code/day09-code/src"/>
+	<classpathentry kind="src" path="basic-code/day10-code/src"/>
+	<classpathentry kind="src" path="basic-code/day11-code/src"/>
+	<classpathentry kind="src" path="itcast/day01_基础加强/src"/>
+	<classpathentry kind="src" path="spring_boot_helloworld/.mvn/wrapper"/>
+	<classpathentry kind="src" path="spring_boot_helloworld/src/main/java"/>
+	<classpathentry kind="src" path="spring_boot_helloworld/src/test/java"/>
+	<classpathentry kind="lib" path="spring_boot_helloworld/target/spring_boot_helloworld-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="advance-code/out/production/01_API"/>
+</classpath>
