@@ -15,22 +15,6 @@
 
 
 
-[002.Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/)
-    Algorithm description:      链表：值域：存放当前节点的值, 指针域：存放下一个节点的内存地址
-        给出两个非空的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。如果，我们将这两个数相加起来，则会返回一个新的链表来表示它们的和。您可以假设除了数字 0 之外，这两个数都不会以 0 开头。
-            输入：(2 -> 4 -> 3) + (5 -> 6 -> 4)
-            输出：7 -> 0 -> 8
-            原因：342 + 465 = 807
-
-
-[003.无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
-    Algorithm description: 
-        给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
-            输入: "abcabcbb"
-            输出: 3 
-            解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
-
-
 [005.最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
     Algorithm description:
         给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。

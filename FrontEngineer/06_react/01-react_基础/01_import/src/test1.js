@@ -1,9 +1,10 @@
-export default function a () {
-    console.log('导出函数');
-}
+// export default function a () {
+//     console.log('用默认方式导出一个函数！');
+// }
 
-// let num = 1;
-// export default num
+let num = '默认方式导出一个字符串';
+export default num
+
 
 // export default {
 //     a: 1,

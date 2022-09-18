@@ -15,5 +15,8 @@ goodsRouter
 .get('/api/getgoods', goodsController.getgoods)
 .get('/api/goods/getinfo/:imgid', goodsController.getinfo)
 .get('/api/goods/getshopcarlist/:str', goodsController.getshopcarlist)
+.post('/api/ok', goodsController.ok)
+.post('/api/bad', goodsController.bad)
+.post('/api/ignore', goodsController.ignore)
 
 module.exports = goodsRouter

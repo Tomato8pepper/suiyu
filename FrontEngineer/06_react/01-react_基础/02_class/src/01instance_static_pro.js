@@ -1,9 +1,16 @@
 // 函数
-function obj () {}
+function obj () {
+  this.name = 'obj';
+  this.fun1 = function () {
+    console.log('obj的函数！');
+  }
+}
 obj.prototype.age = 1
-let o = new obj()
 obj.staticTest = 1 //静态属性
 obj.staticFn = function () {}
+let o = new obj()
+console.log('==', o);
+console.log('==', obj.staticTest);
 
 
 
@@ -17,11 +24,12 @@ class obj1 {
 
   myAge = 123
   myFn () {
-    console.log(this.myAge);
+    console.log('调用类属性', this.myAge);
   }
 }
 let o1 = new obj1()
-let os = obj1.staticAge
-obj1.staticFn()
-let ma = o1.myAge
-o1.myFn()
+// 实例不可以访问类的静态属性, 类可以
+// o1.staticFn()
+console.log(obj1.staticFn());
+
+ 

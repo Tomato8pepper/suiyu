@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #box{
+        background-image: url('./static/1.png');
+        background-color: green;
+        background-size: cover;
+        position: relative;
+    }
+    .words{
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -80px);
+        background-color: white;
+        opacity: 0.6;
+        overflow: hidden;
+    }
+    .text{
+        position: absolute;
+        width: 375px;
+        display: inline-block;
+        font: 30px 楷体;
+    }
+    button{
+        width: 90px;
+        height: 30px;
+        font: 20px 楷体;
+        color: aqua;
+        line-height: 30px;
+        background-color:blueviolet;
+        border-radius: 20px;
+        border: 1px blueviolet;
+        letter-spacing: 5px;
+        margin: 5px;
+    }
+    video{
+        border: 3px solid blueviolet;
+        width: 98%;
+        border-radius: 10px;
+    }
+    .btn{
+        width: 100%;
+        position: absolute;
+        margin-left: 90px;
+        top: 490px;
+    }
+    input{
+        height: 30px;
+        width: 98%;
+        margin: 0 1%;
+        margin-top: 200px;
+        border-radius: 10px;
+        border: 2px solid violet;
+        opacity: 0.8;
+        background-color: blueviolet;
+    }
+</style>
+</head>
+<body>
+    <div id="box" style="width: 100vw;height: 100vh;">
+        <video src="./static/yanhuo.mp4" autoplay loop controls></video>
+        <div class="words">
+            <div class="text"></div>
+        </div>
+        <!-- <input style="color:aqua; font: 20px 楷体" placeholder="很期待你能输入回答"> -->
+        <div class="btn">
+            <button>好的</button>
+            <!-- <button>不好</button> -->
+            <button>忽略</button>
+            <p style="color:aqua;font: 20px 楷体;margin-left: -80px;">这两个按钮还不能点，</p>
+            <p style="color:aqua;font: 20px 楷体;margin-left: -80px;">时间上赶不上零点了，</p>
+            <p style="color:aqua;font: 20px 楷体;margin-left: -80px;">后台功能只实现了一半！</p>
+            <p style="color:aqua;font: 20px 楷体;margin-left: -80px;">(此处假装有个表情，2333)</p>
+        </div>
+    </div>
+</body>
+<script>
+    var data = [
+        {text: 'to mrs liu', color: 'red'},
+        {text: '在这个所有人都开心的时候', color: 'blue'},
+        {text: '我想和你一起在秋水广场或者世界之窗看烟火', color: 'blueviolet'},
+        {text: '但我又实在想不出合适的理由找你', color: 'orange'},
+        {text: '如果此刻你也是一个人跨年', color: 'blueviolet'},
+        {text: '那我们以后一起跨年好不好', color: 'blue'},
+        {text: '如果有打扰，非常抱歉，请忽略这条信息', color: 'green'},
+        {text: 'mr zha', color: 'green'},
+    ]
+    var ptext = document.querySelector('.text');
+    var button = document.querySelectorAll('button');
+    // var inp = document.querySelector('input');
+    var index = 0;
+    var cw = document.body.offsetWidth;
+    data.forEach((item) => {
+        item.pw = cw;
+    })
+    // inp.onchange = function () {
+    //     let value = inp.value;
+    //     console.log(value);
+    // }
+    button[0].onclick = function () {
+        var xhr=new XMLHttpRequest();
+        xhr.open("post", 'http://101.43.27.210:3005/api/ok');
+        xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+        xhr.send("code=0");
+        xhr.onreadystatechange=function(){
+            if(xhr.readyState==4){  //响应完成.
+                if(xhr.status==200){
+                    var data=xhr.responseText;
+                    console.log(data);
+                    let da = JSON.parse(data)
+                    alert(da.msg)
+                }
+            }
+        }
+    }
+    button[1].onclick = function () {
+        var xhr=new XMLHttpRequest();
+        xhr.open("post", 'http://101.43.27.210:3005/api/bad');
+        xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+        xhr.send("code=1");
+        xhr.onreadystatechange=function(){
+            if(xhr.readyState==4){  //响应完成.
+                if(xhr.status==200){
+                    var data=xhr.responseText;
+                    console.log(data);
+                    let da = JSON.parse(data)
+                    alert(da.msg)
+                }
+            }
+        }
+    }
+    // button[2].onclick = function () {
+    //     var xhr=new XMLHttpRequest();
+    //     xhr.open("post", 'http://101.43.27.210:3005/api/ignore');
+    //     xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+    //     xhr.send("code=2");
+    //     xhr.onreadystatechange=function(){
+    //         if(xhr.readyState==4){  //响应完成.
+    //             if(xhr.status==200){
+    //                 var data=xhr.responseText;
+    //                 console.log(data);
+    //                 let da = JSON.parse(data)
+    //                 alert(da.msg)
+    //             }
+    //         }
+    //     }
+    // }
+    ptext.style = 'margin-top: 20px;'
+    function start () {
+        ptext.innerText = data[index].text;
+        ptext.style.color = data[index].color;
+        ptext.style.left = `${data[index].pw}px`;
+        data[index].pw = data[index].pw - 2;
+        if (data[index].pw <= -300) {
+            index++;
+            var height = 130 * Math.random();
+            ptext.style = `margin-top: ${height}px`;
+            data[index - 1].pw = cw;
+            if (index >= 8) {
+                index = 0;
+                data[7].pw = cw;
+            }
+        }
+        requestAnimationFrame(start)
+    }
+
+    start();
+
+</script>
+</html>

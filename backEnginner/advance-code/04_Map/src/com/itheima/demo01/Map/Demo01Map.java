@@ -24,6 +24,9 @@ import java.util.Map;
 public class Demo01Map {
     public static void main(String[] args) {
         show04();
+        show03();
+        show02();
+        show01();
     }
 
     /*

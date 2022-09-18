@@ -19,10 +19,16 @@
 
 		//声明组件
 		var Login  = {
-			template:`<div>我是登录页面</div>`
+			template:`<div>我是登录页面
+					<router-link to = '/login/sonpage'>登录</router-link>
+					<router-view></router-view>
+				</div>`
 		};
 		var Register  = {
 			template:`<div>我是注册页面</div>`
+		};
+		var Sonpage  = {
+			template:`<div>我是子页面</div>`
 		};
 		// 3.创建路由对象
 
@@ -32,7 +38,13 @@
 				// 路由匹配的规则
 				{
 					path:'/login',
-					component:Login
+					component:Login,
+					children: [
+						{
+							path: 'sonpage',
+							component: Sonpage
+						}
+					]
 				},
 				{
 					path:'/register',

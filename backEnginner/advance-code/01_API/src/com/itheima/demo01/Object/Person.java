@@ -23,13 +23,13 @@ public class Person {
        //return "abc";
        return "Person{name="+name+" ,age="+age+"}";
     }*/
-    /*@Override
+    @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
-    }*/
+    }
 
     /*
         Object类的equals方法,默认比较的是两个对象的地址值,没有意义

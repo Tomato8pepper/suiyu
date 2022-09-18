@@ -200,7 +200,7 @@
 	  readAsDataURL		   ---将文件读取为DataURL
 
  ☞  FileReader 提供的事件模型
-	 onabort	    中断时触发
+	   onabort	    中断时触发
      onerror	    出错时触发
      onload	    文件读取成功完成时触发
      onloadend	读取完成触发，无论成功或失败

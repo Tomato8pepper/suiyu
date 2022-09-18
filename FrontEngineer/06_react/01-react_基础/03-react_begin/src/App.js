@@ -28,7 +28,11 @@ class App extends Component {
         hello, I am react!<br/>
         { this.state.name }
         
-        <input type='text' value='' onChange={  this.changeHander }  />
+        <input type='text' value={ this.state.name } onChange={ 
+          // 这里面的this指向的是这个组件, 类里面这个函数指向的this是undefined
+          // console.log('==input', this) }  
+          this.changeHander} 
+        />
         {/* <input type='text' value={ this.state.name } onChange={ (e) => { this.changeHander(e) } } /> */}
       </div>
     )

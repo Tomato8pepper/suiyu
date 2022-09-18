@@ -2,6 +2,30 @@ const goodsModel = require('../models/goods')
 const fs = require('fs')
 
 module.exports = {
+    async ok (ctx, next) {
+        let message = ctx.request.body
+        console.log(message);
+        ctx.body = {
+            code: 200,
+            msg: '好嘞！'
+        }
+    },
+    async bad (ctx, next) {
+        let message = ctx.request.body
+        console.log(message);
+        ctx.body = {
+            code: 200,
+            msg: '不开心！'
+        }
+    },
+    async ignore (ctx, next) {
+        let message = ctx.request.body
+        console.log(message);
+        ctx.body = {
+            code: 200,
+            msg: '好吧！'
+        }
+    },
     async getlunbo (ctx, next) {
         let message = goodsModel.getlunbo()
         // console.log(message)

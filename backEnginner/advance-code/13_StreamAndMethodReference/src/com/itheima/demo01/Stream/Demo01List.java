@@ -15,6 +15,7 @@ public class Demo01List {
         list.add("赵敏");
         list.add("张强");
         list.add("张三丰");
+        list.add("查小龙");
 
         //对list集合中的元素进行过滤,只要以张开头的元素,存储到一个新的集合中
         List<String> listA = new ArrayList<>();
